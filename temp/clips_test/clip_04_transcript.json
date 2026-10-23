@@ -1,0 +1,792 @@
+{
+  "clip_info": {
+    "id": "clip_04",
+    "title": "HTML Coders Made 1M Dollars",
+    "start": 5367.0,
+    "end": 5415.0,
+    "archetype": "tech_intellectual"
+  },
+  "full_text": "of internet practically. I still remember in my first and second year, HTML coders were getting paid a million dollars back then. Okay. And similarly today, some of the best ML engineers would be getting paid 20, 30, some packages are even 100 plus million, right? If you're talking an earlier level talent, all of that is going to get democratized. The come back to your question. The reason why it's not happening right now is you need some serious deep plumbers to get to this. But I can guarantee you in 18 months like today, does anyone think of HTTP or TCP IP? No, does anyone even need HTML coding? Claude will do that for you. So, you know, the world has come to a point where what was...",
+  "words": [
+    {
+      "word": "of",
+      "start": 0.0,
+      "end": 0.14,
+      "prob": 0.525
+    },
+    {
+      "word": "internet",
+      "start": 0.14,
+      "end": 0.3,
+      "prob": 0.568
+    },
+    {
+      "word": "practically.",
+      "start": 0.3,
+      "end": 0.92,
+      "prob": 0.837
+    },
+    {
+      "word": "I",
+      "start": 2.5,
+      "end": 3.06,
+      "prob": 0.836
+    },
+    {
+      "word": "still",
+      "start": 3.06,
+      "end": 3.22,
+      "prob": 0.988
+    },
+    {
+      "word": "remember",
+      "start": 3.22,
+      "end": 3.56,
+      "prob": 0.996
+    },
+    {
+      "word": "in",
+      "start": 3.56,
+      "end": 4.26,
+      "prob": 0.746
+    },
+    {
+      "word": "my",
+      "start": 4.26,
+      "end": 4.46,
+      "prob": 0.995
+    },
+    {
+      "word": "first",
+      "start": 4.46,
+      "end": 4.86,
+      "prob": 0.974
+    },
+    {
+      "word": "and",
+      "start": 4.86,
+      "end": 5.0,
+      "prob": 0.959
+    },
+    {
+      "word": "second",
+      "start": 5.0,
+      "end": 5.22,
+      "prob": 0.995
+    },
+    {
+      "word": "year,",
+      "start": 5.22,
+      "end": 5.5,
+      "prob": 0.985
+    },
+    {
+      "word": "HTML",
+      "start": 5.7,
+      "end": 6.08,
+      "prob": 0.823
+    },
+    {
+      "word": "coders",
+      "start": 6.08,
+      "end": 6.56,
+      "prob": 0.736
+    },
+    {
+      "word": "were",
+      "start": 6.56,
+      "end": 6.72,
+      "prob": 0.87
+    },
+    {
+      "word": "getting",
+      "start": 6.72,
+      "end": 6.88,
+      "prob": 0.996
+    },
+    {
+      "word": "paid",
+      "start": 6.88,
+      "end": 7.16,
+      "prob": 0.997
+    },
+    {
+      "word": "a",
+      "start": 7.16,
+      "end": 7.3,
+      "prob": 0.803
+    },
+    {
+      "word": "million",
+      "start": 7.3,
+      "end": 7.46,
+      "prob": 0.993
+    },
+    {
+      "word": "dollars",
+      "start": 7.46,
+      "end": 7.82,
+      "prob": 0.991
+    },
+    {
+      "word": "back",
+      "start": 7.82,
+      "end": 9.1,
+      "prob": 0.89
+    },
+    {
+      "word": "then.",
+      "start": 9.1,
+      "end": 9.4,
+      "prob": 0.693
+    },
+    {
+      "word": "Okay.",
+      "start": 10.02,
+      "end": 10.34,
+      "prob": 0.734
+    },
+    {
+      "word": "And",
+      "start": 10.9,
+      "end": 11.1,
+      "prob": 0.931
+    },
+    {
+      "word": "similarly",
+      "start": 11.1,
+      "end": 11.42,
+      "prob": 0.995
+    },
+    {
+      "word": "today,",
+      "start": 11.42,
+      "end": 11.78,
+      "prob": 0.788
+    },
+    {
+      "word": "some",
+      "start": 12.24,
+      "end": 12.74,
+      "prob": 0.963
+    },
+    {
+      "word": "of",
+      "start": 12.74,
+      "end": 12.92,
+      "prob": 0.989
+    },
+    {
+      "word": "the",
+      "start": 12.92,
+      "end": 13.0,
+      "prob": 0.997
+    },
+    {
+      "word": "best",
+      "start": 13.0,
+      "end": 13.66,
+      "prob": 0.998
+    },
+    {
+      "word": "ML",
+      "start": 13.66,
+      "end": 13.92,
+      "prob": 0.645
+    },
+    {
+      "word": "engineers",
+      "start": 13.92,
+      "end": 14.54,
+      "prob": 0.988
+    },
+    {
+      "word": "would",
+      "start": 14.54,
+      "end": 14.94,
+      "prob": 0.98
+    },
+    {
+      "word": "be",
+      "start": 14.94,
+      "end": 15.12,
+      "prob": 0.999
+    },
+    {
+      "word": "getting",
+      "start": 15.12,
+      "end": 15.28,
+      "prob": 0.995
+    },
+    {
+      "word": "paid",
+      "start": 15.28,
+      "end": 15.56,
+      "prob": 0.997
+    },
+    {
+      "word": "20,",
+      "start": 15.56,
+      "end": 15.8,
+      "prob": 0.733
+    },
+    {
+      "word": "30,",
+      "start": 15.92,
+      "end": 16.26,
+      "prob": 0.987
+    },
+    {
+      "word": "some",
+      "start": 16.54,
+      "end": 16.96,
+      "prob": 0.958
+    },
+    {
+      "word": "packages",
+      "start": 16.96,
+      "end": 17.72,
+      "prob": 0.979
+    },
+    {
+      "word": "are",
+      "start": 17.72,
+      "end": 17.94,
+      "prob": 0.907
+    },
+    {
+      "word": "even",
+      "start": 17.94,
+      "end": 18.08,
+      "prob": 0.994
+    },
+    {
+      "word": "100",
+      "start": 18.08,
+      "end": 18.4,
+      "prob": 0.599
+    },
+    {
+      "word": "plus",
+      "start": 18.4,
+      "end": 18.64,
+      "prob": 0.957
+    },
+    {
+      "word": "million,",
+      "start": 18.64,
+      "end": 18.92,
+      "prob": 0.948
+    },
+    {
+      "word": "right?",
+      "start": 18.92,
+      "end": 19.2,
+      "prob": 0.981
+    },
+    {
+      "word": "If",
+      "start": 19.4,
+      "end": 19.46,
+      "prob": 0.981
+    },
+    {
+      "word": "you're",
+      "start": 19.46,
+      "end": 19.66,
+      "prob": 0.975
+    },
+    {
+      "word": "talking",
+      "start": 19.66,
+      "end": 20.16,
+      "prob": 0.996
+    },
+    {
+      "word": "an",
+      "start": 20.16,
+      "end": 20.28,
+      "prob": 0.719
+    },
+    {
+      "word": "earlier",
+      "start": 20.28,
+      "end": 20.46,
+      "prob": 0.257
+    },
+    {
+      "word": "level",
+      "start": 20.46,
+      "end": 21.26,
+      "prob": 0.876
+    },
+    {
+      "word": "talent,",
+      "start": 21.26,
+      "end": 21.64,
+      "prob": 0.924
+    },
+    {
+      "word": "all",
+      "start": 22.86,
+      "end": 23.02,
+      "prob": 0.864
+    },
+    {
+      "word": "of",
+      "start": 23.02,
+      "end": 24.3,
+      "prob": 0.999
+    },
+    {
+      "word": "that",
+      "start": 24.3,
+      "end": 24.42,
+      "prob": 0.999
+    },
+    {
+      "word": "is",
+      "start": 24.42,
+      "end": 24.54,
+      "prob": 0.997
+    },
+    {
+      "word": "going",
+      "start": 24.54,
+      "end": 24.68,
+      "prob": 0.997
+    },
+    {
+      "word": "to",
+      "start": 24.68,
+      "end": 24.82,
+      "prob": 1.0
+    },
+    {
+      "word": "get",
+      "start": 24.82,
+      "end": 24.94,
+      "prob": 0.915
+    },
+    {
+      "word": "democratized.",
+      "start": 24.94,
+      "end": 25.64,
+      "prob": 0.948
+    },
+    {
+      "word": "The",
+      "start": 26.2,
+      "end": 26.68,
+      "prob": 0.163
+    },
+    {
+      "word": "come",
+      "start": 26.68,
+      "end": 26.96,
+      "prob": 0.293
+    },
+    {
+      "word": "back",
+      "start": 26.96,
+      "end": 27.12,
+      "prob": 0.971
+    },
+    {
+      "word": "to",
+      "start": 27.12,
+      "end": 27.24,
+      "prob": 0.974
+    },
+    {
+      "word": "your",
+      "start": 27.24,
+      "end": 27.34,
+      "prob": 0.946
+    },
+    {
+      "word": "question.",
+      "start": 27.34,
+      "end": 27.54,
+      "prob": 0.985
+    },
+    {
+      "word": "The",
+      "start": 27.78,
+      "end": 27.82,
+      "prob": 0.963
+    },
+    {
+      "word": "reason",
+      "start": 27.82,
+      "end": 27.98,
+      "prob": 0.998
+    },
+    {
+      "word": "why",
+      "start": 27.98,
+      "end": 28.2,
+      "prob": 0.989
+    },
+    {
+      "word": "it's",
+      "start": 28.2,
+      "end": 28.38,
+      "prob": 0.984
+    },
+    {
+      "word": "not",
+      "start": 28.38,
+      "end": 28.52,
+      "prob": 0.997
+    },
+    {
+      "word": "happening",
+      "start": 28.52,
+      "end": 28.86,
+      "prob": 0.998
+    },
+    {
+      "word": "right",
+      "start": 28.86,
+      "end": 29.08,
+      "prob": 0.945
+    },
+    {
+      "word": "now",
+      "start": 29.08,
+      "end": 29.28,
+      "prob": 0.983
+    },
+    {
+      "word": "is",
+      "start": 29.28,
+      "end": 29.42,
+      "prob": 0.952
+    },
+    {
+      "word": "you",
+      "start": 29.42,
+      "end": 29.54,
+      "prob": 0.974
+    },
+    {
+      "word": "need",
+      "start": 29.54,
+      "end": 29.7,
+      "prob": 0.998
+    },
+    {
+      "word": "some",
+      "start": 29.7,
+      "end": 29.94,
+      "prob": 0.988
+    },
+    {
+      "word": "serious",
+      "start": 29.94,
+      "end": 30.5,
+      "prob": 0.988
+    },
+    {
+      "word": "deep",
+      "start": 30.5,
+      "end": 30.82,
+      "prob": 0.548
+    },
+    {
+      "word": "plumbers",
+      "start": 30.82,
+      "end": 31.26,
+      "prob": 0.805
+    },
+    {
+      "word": "to",
+      "start": 31.26,
+      "end": 31.72,
+      "prob": 0.98
+    },
+    {
+      "word": "get",
+      "start": 31.72,
+      "end": 31.88,
+      "prob": 0.998
+    },
+    {
+      "word": "to",
+      "start": 31.88,
+      "end": 32.04,
+      "prob": 0.971
+    },
+    {
+      "word": "this.",
+      "start": 32.04,
+      "end": 32.26,
+      "prob": 0.993
+    },
+    {
+      "word": "But",
+      "start": 33.14,
+      "end": 33.48,
+      "prob": 0.958
+    },
+    {
+      "word": "I",
+      "start": 33.48,
+      "end": 33.92,
+      "prob": 0.974
+    },
+    {
+      "word": "can",
+      "start": 33.92,
+      "end": 34.08,
+      "prob": 0.999
+    },
+    {
+      "word": "guarantee",
+      "start": 34.08,
+      "end": 34.4,
+      "prob": 0.989
+    },
+    {
+      "word": "you",
+      "start": 34.4,
+      "end": 34.76,
+      "prob": 0.867
+    },
+    {
+      "word": "in",
+      "start": 34.76,
+      "end": 34.88,
+      "prob": 0.873
+    },
+    {
+      "word": "18",
+      "start": 34.88,
+      "end": 35.06,
+      "prob": 0.982
+    },
+    {
+      "word": "months",
+      "start": 35.06,
+      "end": 35.3,
+      "prob": 0.991
+    },
+    {
+      "word": "like",
+      "start": 35.3,
+      "end": 35.68,
+      "prob": 0.603
+    },
+    {
+      "word": "today,",
+      "start": 35.68,
+      "end": 36.2,
+      "prob": 0.909
+    },
+    {
+      "word": "does",
+      "start": 36.2,
+      "end": 36.78,
+      "prob": 0.982
+    },
+    {
+      "word": "anyone",
+      "start": 36.78,
+      "end": 37.02,
+      "prob": 0.992
+    },
+    {
+      "word": "think",
+      "start": 37.02,
+      "end": 38.2,
+      "prob": 0.959
+    },
+    {
+      "word": "of",
+      "start": 38.2,
+      "end": 38.78,
+      "prob": 0.996
+    },
+    {
+      "word": "HTTP",
+      "start": 38.78,
+      "end": 38.78,
+      "prob": 0.839
+    },
+    {
+      "word": "or",
+      "start": 38.78,
+      "end": 39.28,
+      "prob": 0.951
+    },
+    {
+      "word": "TCP",
+      "start": 39.28,
+      "end": 39.48,
+      "prob": 0.959
+    },
+    {
+      "word": "IP?",
+      "start": 39.48,
+      "end": 40.14,
+      "prob": 0.581
+    },
+    {
+      "word": "No,",
+      "start": 40.8,
+      "end": 40.86,
+      "prob": 0.913
+    },
+    {
+      "word": "does",
+      "start": 41.1,
+      "end": 41.24,
+      "prob": 0.457
+    },
+    {
+      "word": "anyone",
+      "start": 41.24,
+      "end": 42.3,
+      "prob": 0.985
+    },
+    {
+      "word": "even",
+      "start": 42.3,
+      "end": 42.54,
+      "prob": 0.929
+    },
+    {
+      "word": "need",
+      "start": 42.54,
+      "end": 42.82,
+      "prob": 0.997
+    },
+    {
+      "word": "HTML",
+      "start": 42.82,
+      "end": 43.28,
+      "prob": 0.899
+    },
+    {
+      "word": "coding?",
+      "start": 43.28,
+      "end": 43.72,
+      "prob": 0.958
+    },
+    {
+      "word": "Claude",
+      "start": 43.72,
+      "end": 44.16,
+      "prob": 0.036
+    },
+    {
+      "word": "will",
+      "start": 44.16,
+      "end": 44.34,
+      "prob": 0.951
+    },
+    {
+      "word": "do",
+      "start": 44.34,
+      "end": 44.46,
+      "prob": 0.993
+    },
+    {
+      "word": "that",
+      "start": 44.46,
+      "end": 44.6,
+      "prob": 0.992
+    },
+    {
+      "word": "for",
+      "start": 44.6,
+      "end": 44.8,
+      "prob": 0.977
+    },
+    {
+      "word": "you.",
+      "start": 44.8,
+      "end": 44.94,
+      "prob": 0.994
+    },
+    {
+      "word": "So,",
+      "start": 45.06,
+      "end": 45.16,
+      "prob": 0.646
+    },
+    {
+      "word": "you",
+      "start": 45.66,
+      "end": 45.74,
+      "prob": 0.759
+    },
+    {
+      "word": "know,",
+      "start": 45.74,
+      "end": 45.84,
+      "prob": 0.998
+    },
+    {
+      "word": "the",
+      "start": 45.9,
+      "end": 45.96,
+      "prob": 0.99
+    },
+    {
+      "word": "world",
+      "start": 45.96,
+      "end": 46.16,
+      "prob": 0.996
+    },
+    {
+      "word": "has",
+      "start": 46.16,
+      "end": 46.34,
+      "prob": 0.984
+    },
+    {
+      "word": "come",
+      "start": 46.34,
+      "end": 46.54,
+      "prob": 0.998
+    },
+    {
+      "word": "to",
+      "start": 46.54,
+      "end": 46.74,
+      "prob": 0.99
+    },
+    {
+      "word": "a",
+      "start": 46.74,
+      "end": 46.8,
+      "prob": 0.969
+    },
+    {
+      "word": "point",
+      "start": 46.8,
+      "end": 47.02,
+      "prob": 0.998
+    },
+    {
+      "word": "where",
+      "start": 47.02,
+      "end": 47.3,
+      "prob": 0.98
+    },
+    {
+      "word": "what",
+      "start": 47.3,
+      "end": 47.6,
+      "prob": 0.846
+    },
+    {
+      "word": "was...",
+      "start": 47.6,
+      "end": 47.98,
+      "prob": 0.653
+    }
+  ]
+}

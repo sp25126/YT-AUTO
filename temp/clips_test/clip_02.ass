@@ -1,0 +1,54 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: BaseTone,Montserrat ExtraBold,76,&H00FFFFFF&,&H0000FFFF&,&H00000000&,&H90000000&,-1,0,0,0,100,100,0,0,1,8,3,2,60,60,450,1
+Style: Banner,Montserrat Black,50,&H00FFFFFF&,&H00000000&,&H00000000&,&HB0000000&,-1,0,0,0,100,100,2,0,3,6,0,8,40,40,240,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:46.00,Banner,,0,0,0,, IS AI MAKING US DUMB? 
+Dialogue: 0,0:00:00.60,0:00:01.54,BaseTone,,0,0,0,,{\fs88\c&H0000D4FF&\i0\frz0}{\k52}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}I'M {\k19}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}WORRYING {\k21}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THAT
+Dialogue: 0,0:00:01.54,0:00:02.18,BaseTone,,0,0,0,,{\fs88\c&H0000D4FF&\i0\frz0}{\k21}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}PEOPLE {\k24}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}ARE {\k18}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}GETTING
+Dialogue: 0,0:00:02.18,0:00:03.58,BaseTone,,0,0,0,,{\fs88\c&H0000D4FF&\i0\frz0}{\k43}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}DUMBBELL {\k73}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}FOR {\k22}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}SURE
+Dialogue: 0,0:00:03.58,0:00:05.68,BaseTone,,0,0,0,,{\fs88\c&H0000D4FF&\i0\frz0}{\k134}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}AND {\k13}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THIS {\k62}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}RESEARCH
+Dialogue: 0,0:00:05.68,0:00:06.32,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k26}ON {\k13}IT. {\k10}YEAH.
+Dialogue: 0,0:00:06.50,0:00:06.98,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k1}SO {\k32}PEOPLE {\k16}ARE.
+Dialogue: 0,0:00:07.30,0:00:08.00,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k1}YEAH. {\k11}SO {\k48}I
+Dialogue: 0,0:00:08.00,0:00:08.62,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k9}HAVE {\k20}SEEN {\k31}I'VE
+Dialogue: 0,0:00:08.62,0:00:10.52,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k28}PUT {\k135}AI {\k25}IN
+Dialogue: 0,0:00:10.52,0:00:11.96,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k9}ONE {\k36}DEPARTMENT, {\k98}WHICH
+Dialogue: 0,0:00:11.96,0:00:12.68,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k43}WAS {\k11}A {\k16}VERY
+Dialogue: 0,0:00:12.68,0:00:14.12,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k24}CRUCIAL {\k43}DEPARTMENT. {\k29}I
+Dialogue: 0,0:00:14.12,0:00:14.90,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k16}MADE {\k30}THEM {\k32}USE
+Dialogue: 0,0:00:14.90,0:00:15.68,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k43}ALL {\k17}THE {\k16}TOOLS
+Dialogue: 0,0:00:15.68,0:00:16.24,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k17}IN {\k12}THE {\k25}WORLD,
+Dialogue: 0,0:00:16.24,0:00:19.78,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k104}PROBABLY {\k129}LED {\k120}LAST
+Dialogue: 0,0:00:19.78,0:00:20.90,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k37}SIX {\k32}MONTHS {\k41}FORCING
+Dialogue: 0,0:00:20.90,0:00:21.68,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k40}THEM {\k16}TO {\k21}START
+Dialogue: 0,0:00:21.68,0:00:22.56,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k35}USING {\k38}THIS. {\k1}AND
+Dialogue: 0,0:00:22.56,0:00:23.10,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k16}NOW {\k16}THEY'RE {\k22}BECOME
+Dialogue: 0,0:00:23.10,0:00:24.42,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k21}SO {\k32}DEPENDENT {\k78}THAT
+Dialogue: 0,0:00:24.42,0:00:25.22,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k15}THEY'VE {\k16}STOPPED {\k48}TAKING
+Dialogue: 0,0:00:25.22,0:00:27.30,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k32}JUDGMENT. {\k82}AND {\k94}THEY'RE
+Dialogue: 0,0:00:27.30,0:00:27.92,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-3}{\k12}JUST {\k25}LETTING {\k24}AI
+Dialogue: 0,0:00:27.92,0:00:28.54,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-3}{\k25}DO {\k14}THE {\k21}WORK
+Dialogue: 0,0:00:28.54,0:00:29.00,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-3}{\k10}AND {\k12}THEY'VE {\k23}BECOME
+Dialogue: 0,0:00:29.00,0:00:29.98,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-3}{\k33}ABSOLUTELY {\k48}DUMBBELL. {\k10}SO
+Dialogue: 0,0:00:29.98,0:00:30.76,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-3}{\k9}THE {\k32}IDEAS {\k36}WHICH
+Dialogue: 0,0:00:30.76,0:00:31.26,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-3}{\k16}I {\k17}USED {\k16}TO
+Dialogue: 0,0:00:31.26,0:00:32.66,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-3}{\k19}GET {\k39}BEFORE {\k79}ARE
+Dialogue: 0,0:00:32.66,0:00:34.16,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-3}{\k18}NOT {\k101}COMING. {\k1}YEAH.
+Dialogue: 0,0:00:34.64,0:00:34.94,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-3}{\k1}THERE {\k14}USED {\k15}TO
+Dialogue: 0,0:00:34.94,0:00:35.68,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-3}{\k14}BE {\k14}AN {\k46}ELEMENT
+Dialogue: 0,0:00:35.68,0:00:38.60,BaseTone,,0,0,0,,{\fs88\c&H0000D4FF&\i0\frz0}{\k46}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}OF {\k151}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}STUPIDITY, {\k34}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}WHICH
+Dialogue: 0,0:00:38.60,0:00:39.82,BaseTone,,0,0,0,,{\fs88\c&H0000D4FF&\i0\frz0}{\k15}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}I {\k64}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}REALLY {\k42}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}LOVE.
+Dialogue: 0,0:00:40.16,0:00:41.02,BaseTone,,0,0,0,,{\fs88\c&H0000D4FF&\i0\frz0}{\k8}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}YEAH. {\k1}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}LIKE {\k30}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}UNTIL
+Dialogue: 0,0:00:41.02,0:00:41.74,BaseTone,,0,0,0,,{\fs88\c&H0000D4FF&\i0\frz0}{\k29}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}UNLESS {\k32}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THERE'S {\k10}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}AN
+Dialogue: 0,0:00:41.74,0:00:42.58,BaseTone,,0,0,0,,{\fs88\c&H0000D4FF&\i0\frz0}{\k21}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}ELEMENT {\k24}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}OF {\k37}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}STUPIDITY,
+Dialogue: 0,0:00:43.28,0:00:43.64,BaseTone,,0,0,0,,{\fs88\c&H0000D4FF&\i0\frz0}{\k1}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}YOU {\k20}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}DON'T {\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}HAVE
+Dialogue: 0,0:00:43.64,0:00:44.34,BaseTone,,0,0,0,,{\fs88\c&H0000D4FF&\i0\frz0}{\k7}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}AN {\k16}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}ORIGINAL {\k46}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IDEA.
+Dialogue: 0,0:00:44.56,0:00:45.54,BaseTone,,0,0,0,,{\fs88\c&H0000D4FF&\i0\frz0}{\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}YEAH. {\k1}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}RIGHT. {\k3}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}YEP.

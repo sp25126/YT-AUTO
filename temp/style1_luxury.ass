@@ -1,0 +1,48 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: LuxuryPill,Montserrat Bold,84,&H00FFFFFF&,&H0000FFFF&,&H00000000&,&H80000000&,-1,0,0,0,100,100,1,0,1,6,3,5,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.64,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}BUT WHAT {\c&H0081B910&\b1}ABOUT
+Dialogue: 0,0:00:00.64,0:00:01.42,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}THE TIMING? {\c&H0081B910&\b1}A
+Dialogue: 0,0:00:01.42,0:00:01.84,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}LOT OF {\c&H0081B910&\b1}PEOPLE,
+Dialogue: 0,0:00:02.06,0:00:02.54,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}A LOT {\c&H0081B910&\b1}OF
+Dialogue: 0,0:00:02.54,0:00:03.72,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}STARTUPS DIE, {\c&H0081B910&\b1}NOT
+Dialogue: 0,0:00:03.72,0:00:04.50,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}BECAUSE OF {\c&H0081B910&\b1}TREND,
+Dialogue: 0,0:00:05.06,0:00:05.80,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}THEY DIE {\c&H0081B910&\b1}BECAUSE
+Dialogue: 0,0:00:05.80,0:00:06.40,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}OF WRONG {\c&H0081B910&\b1}TIMING.
+Dialogue: 0,0:00:06.88,0:00:07.38,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}YEAH, EITHER {\c&H0081B910&\b1}THEY'RE
+Dialogue: 0,0:00:07.38,0:00:07.94,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}TOO EARLY {\c&H0081B910&\b1}OR
+Dialogue: 0,0:00:07.94,0:00:08.74,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}TOO LATE. {\c&H0081B910&\b1}SO
+Dialogue: 0,0:00:08.74,0:00:09.58,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}HOW DO {\c&H0081B910&\b1}YOU
+Dialogue: 0,0:00:09.58,0:00:10.36,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}PICK UP {\c&H0081B910&\b1}THE
+Dialogue: 0,0:00:10.36,0:00:11.16,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}RIGHT TIME {\c&H0081B910&\b1}TO
+Dialogue: 0,0:00:11.16,0:00:12.84,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}ENTER A {\c&H0081B910&\b1}SPACE
+Dialogue: 0,0:00:12.84,0:00:14.30,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}TO LEARN {\c&H0081B910&\b1}AND
+Dialogue: 0,0:00:14.30,0:00:15.00,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}THEN EVENTUALLY {\c&H0081B910&\b1}START
+Dialogue: 0,0:00:15.00,0:00:16.02,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}A BUSINESS? {\c&H0081B910&\b1}NUMBER
+Dialogue: 0,0:00:16.02,0:00:17.38,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}ONE, YOU {\c&H0081B910&\b1}CAN'T
+Dialogue: 0,0:00:17.38,0:00:17.74,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}JUST BE {\c&H0081B910&\b1}ON
+Dialogue: 0,0:00:17.74,0:00:18.56,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}INTERNET, RIGHT? {\c&H0081B910&\b1}YOU'VE
+Dialogue: 0,0:00:18.56,0:00:19.16,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}GOT TO {\c&H0081B910&\b1}BE
+Dialogue: 0,0:00:19.16,0:00:20.22,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}ABLE TO {\c&H0081B910&\b1}CREATE
+Dialogue: 0,0:00:20.22,0:00:21.72,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}A ADVISOR {\c&H0081B910&\b1}NET.
+Dialogue: 0,0:00:22.40,0:00:23.28,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}THE FIRST {\c&H0081B910&\b1}THING
+Dialogue: 0,0:00:23.28,0:00:23.72,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}THAT YOU {\c&H0081B910&\b1}WANT
+Dialogue: 0,0:00:23.72,0:00:24.10,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}TO DO {\c&H0081B910&\b1}IS
+Dialogue: 0,0:00:24.10,0:00:25.40,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}TALK TO {\c&H0081B910&\b1}PEOPLE
+Dialogue: 0,0:00:25.40,0:00:26.32,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}WHO'VE DONE {\c&H0081B910&\b1}THIS
+Dialogue: 0,0:00:26.32,0:00:27.24,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}FOR A {\c&H0081B910&\b1}WHILE.
+Dialogue: 0,0:00:27.80,0:00:28.56,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}BECAUSE WHAT {\c&H0081B910&\b1}HAPPENS
+Dialogue: 0,0:00:28.56,0:00:29.42,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}IS OUTSIDE {\c&H0081B910&\b1}AND
+Dialogue: 0,0:00:29.42,0:00:29.96,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}IT LOOKS {\c&H0081B910&\b1}ALL
+Dialogue: 0,0:00:29.96,0:00:31.16,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}ROSY. BUT {\c&H0081B910&\b1}ONCE
+Dialogue: 0,0:00:31.16,0:00:31.90,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}YOU GO, {\c&H0081B910&\b1}THE
+Dialogue: 0,0:00:31.90,0:00:32.70,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}DEVIL'S ALWAYS {\c&H0081B910&\b1}IN
+Dialogue: 0,0:00:32.70,0:00:33.02,LuxuryPill,,0,0,0,,{\an5\pos(540,1460)\t(0,60,\fscx112\fscy112)\t(60,120,\fscx100\fscy100)}{\c&H00D4D4D8&}THE {\c&H0081B910&\b1}DETAIL.

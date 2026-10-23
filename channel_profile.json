@@ -1,0 +1,12 @@
+{
+  "channel_name": "Apex Clips Lab",
+  "status": "new_channel",
+  "target_audience": "18-34, curious, ambitious, short attention span",
+  "primary_niches": ["psychology", "business_hustle", "dark_stories", "comedy_banter"],
+  "content_guidelines": {
+    "preferred_clip_length_range": [30, 52],
+    "target_clips_per_hour": 5,
+    "max_clips_per_video": 10,
+    "avoid_topics": ["internal podcast sponsors", "technical audio soundchecks", "inside jokes with no context"]
+  }
+}

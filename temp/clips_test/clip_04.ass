@@ -1,0 +1,57 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: BaseTone,Montserrat ExtraBold,76,&H00FFFFFF&,&H0000FFFF&,&H00000000&,&H90000000&,-1,0,0,0,100,100,0,0,1,8,3,2,60,60,450,1
+Style: Banner,Montserrat Black,50,&H00FFFFFF&,&H00000000&,&H00000000&,&HB0000000&,-1,0,0,0,100,100,2,0,3,6,0,8,40,40,240,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:48.00,Banner,,0,0,0,, THE $1,000,000 CODER TRAP 
+Dialogue: 0,0:00:00.00,0:00:00.92,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}OF {\k15}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}INTERNET {\k62}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}PRACTICALLY.
+Dialogue: 0,0:00:02.50,0:00:03.56,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k56}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}I {\k16}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}STILL {\k33}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}REMEMBER
+Dialogue: 0,0:00:03.56,0:00:04.86,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k69}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IN {\k20}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}MY {\k40}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}FIRST
+Dialogue: 0,0:00:04.86,0:00:05.50,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k13}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}AND {\k21}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}SECOND {\k28}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}YEAR,
+Dialogue: 0,0:00:05.70,0:00:06.72,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k37}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}HTML {\k47}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}CODERS {\k16}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}WERE
+Dialogue: 0,0:00:06.72,0:00:07.30,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k16}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}GETTING {\k28}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}PAID {\k13}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}A
+Dialogue: 0,0:00:07.30,0:00:09.10,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k16}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}MILLION {\k36}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}DOLLARS {\k127}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}BACK
+Dialogue: 0,0:00:09.10,0:00:11.10,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k30}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THEN. {\k32}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}OKAY. {\k19}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}AND
+Dialogue: 0,0:00:11.10,0:00:12.74,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k32}SIMILARLY {\k35}TODAY, {\k50}SOME
+Dialogue: 0,0:00:12.74,0:00:13.66,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k17}OF {\k8}THE {\k66}BEST
+Dialogue: 0,0:00:13.66,0:00:14.94,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k25}ML {\k61}ENGINEERS {\k40}WOULD
+Dialogue: 0,0:00:14.94,0:00:15.56,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k17}BE {\k16}GETTING {\k28}PAID
+Dialogue: 0,0:00:15.56,0:00:16.96,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k24}20, {\k34}30, {\k42}SOME
+Dialogue: 0,0:00:16.96,0:00:18.08,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k75}PACKAGES {\k22}ARE {\k13}EVEN
+Dialogue: 0,0:00:18.08,0:00:18.92,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k32}100 {\k24}PLUS {\k28}MILLION,
+Dialogue: 0,0:00:18.92,0:00:19.66,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k27}RIGHT? {\k6}IF {\k19}YOU'RE
+Dialogue: 0,0:00:19.66,0:00:20.46,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k50}TALKING {\k12}AN {\k17}EARLIER
+Dialogue: 0,0:00:20.46,0:00:23.02,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k80}LEVEL {\k37}TALENT, {\k16}ALL
+Dialogue: 0,0:00:23.02,0:00:24.54,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k128}OF {\k12}THAT {\k11}IS
+Dialogue: 0,0:00:24.54,0:00:24.94,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k14}GOING {\k14}TO {\k12}GET
+Dialogue: 0,0:00:24.94,0:00:26.96,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k69}DEMOCRATIZED. {\k48}THE {\k28}COME
+Dialogue: 0,0:00:26.96,0:00:27.34,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k16}BACK {\k11}TO {\k10}YOUR
+Dialogue: 0,0:00:27.34,0:00:27.98,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k19}QUESTION. {\k3}THE {\k16}REASON
+Dialogue: 0,0:00:27.98,0:00:28.52,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k21}WHY {\k17}IT'S {\k14}NOT
+Dialogue: 0,0:00:28.52,0:00:29.28,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k33}HAPPENING {\k21}RIGHT {\k20}NOW
+Dialogue: 0,0:00:29.28,0:00:29.70,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k14}IS {\k11}YOU {\k16}NEED
+Dialogue: 0,0:00:29.70,0:00:30.82,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k24}SOME {\k55}SERIOUS {\k32}DEEP
+Dialogue: 0,0:00:30.82,0:00:31.88,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k44}PLUMBERS {\k45}TO {\k16}GET
+Dialogue: 0,0:00:31.88,0:00:33.48,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k16}TO {\k21}THIS. {\k33}BUT
+Dialogue: 0,0:00:33.48,0:00:34.40,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k44}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}I {\k15}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}CAN {\k32}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}GUARANTEE
+Dialogue: 0,0:00:34.40,0:00:35.06,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k35}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}YOU {\k12}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IN {\k17}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}18
+Dialogue: 0,0:00:35.06,0:00:36.20,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k23}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}MONTHS {\k38}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}LIKE {\k52}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}TODAY,
+Dialogue: 0,0:00:36.20,0:00:38.20,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k57}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}DOES {\k24}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}ANYONE {\k117}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THINK
+Dialogue: 0,0:00:38.20,0:00:39.28,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k57}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}OF {\k1}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}HTTP {\k50}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}OR
+Dialogue: 0,0:00:39.28,0:00:40.86,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k19}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}TCP {\k66}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IP? {\k6}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}NO,
+Dialogue: 0,0:00:41.10,0:00:42.54,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}DOES {\k105}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}ANYONE {\k24}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}EVEN
+Dialogue: 0,0:00:42.54,0:00:43.72,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k28}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}NEED {\k46}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}HTML {\k43}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}CODING?
+Dialogue: 0,0:00:43.72,0:00:44.46,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k43}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}CLAUDE {\k18}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}WILL {\k11}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}DO
+Dialogue: 0,0:00:44.46,0:00:44.94,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THAT {\k19}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}FOR {\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}YOU.
+Dialogue: 0,0:00:45.06,0:00:45.84,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k9}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}SO, {\k8}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}YOU {\k10}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}KNOW,
+Dialogue: 0,0:00:45.90,0:00:46.34,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k6}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THE {\k19}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}WORLD {\k18}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}HAS
+Dialogue: 0,0:00:46.34,0:00:46.80,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k19}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}COME {\k20}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}TO {\k5}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}A
+Dialogue: 0,0:00:46.80,0:00:47.60,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k22}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}POINT {\k27}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}WHERE {\k30}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}WHAT
+Dialogue: 0,0:00:47.60,0:00:47.98,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k37}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}WAS...

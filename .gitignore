@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Node / Remotion builds and cache
+node_modules/
+remotion_studio/node_modules/
+remotion_studio/.remotion/
+core/openmontage/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Large Raw Media Files (> 100MB strictly banned by GitHub)
+inputs/*.mp4
+inputs/*.mov
+inputs/*.mkv
+!inputs/.gitkeep
+
+# Temporary build intermediates (all finalized variants in outputs/ are tracked)
+temp/*.mp4
+temp/*.wav
+temp/pro_build/
+temp/clone_build/
+temp/sabri_build/
+temp/clips_test/*.mp4
+# Keep essential transcripts & templates in temp/
+!temp/clips_test/clip_03_transcript.json
+!temp/curved_border.png
+!temp/top_luma_mask.png
+!temp/newspaper_shoulders.png
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/

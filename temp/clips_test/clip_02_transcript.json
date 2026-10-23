@@ -1,0 +1,750 @@
+{
+  "clip_info": {
+    "id": "clip_02",
+    "title": "AI Is Making People Dumber",
+    "start": 3868.0,
+    "end": 3914.0,
+    "archetype": "comedy_banter"
+  },
+  "full_text": "I'm worrying that people are getting dumbbell for sure and this research on it. Yeah. So people are. Yeah. So I have seen I've put AI in one department, which was a very crucial department. I made them use all the tools in the world, probably led last six months forcing them to start using this. And now they're become so dependent that they've stopped taking judgment. And they're just letting AI do the work and they've become absolutely dumbbell. So the ideas which I used to get before are not coming. Yeah. There used to be an element of stupidity, which I really love. Yeah. Like until unless there's an element of stupidity, you don't have an original idea. Yeah. Right. Yep.",
+  "words": [
+    {
+      "word": "I'm",
+      "start": 0.6,
+      "end": 1.12,
+      "prob": 0.486
+    },
+    {
+      "word": "worrying",
+      "start": 1.12,
+      "end": 1.32,
+      "prob": 0.473
+    },
+    {
+      "word": "that",
+      "start": 1.32,
+      "end": 1.54,
+      "prob": 0.952
+    },
+    {
+      "word": "people",
+      "start": 1.54,
+      "end": 1.76,
+      "prob": 0.986
+    },
+    {
+      "word": "are",
+      "start": 1.76,
+      "end": 2.0,
+      "prob": 0.981
+    },
+    {
+      "word": "getting",
+      "start": 2.0,
+      "end": 2.18,
+      "prob": 0.995
+    },
+    {
+      "word": "dumbbell",
+      "start": 2.18,
+      "end": 2.62,
+      "prob": 0.465
+    },
+    {
+      "word": "for",
+      "start": 2.62,
+      "end": 3.36,
+      "prob": 0.466
+    },
+    {
+      "word": "sure",
+      "start": 3.36,
+      "end": 3.58,
+      "prob": 0.967
+    },
+    {
+      "word": "and",
+      "start": 3.58,
+      "end": 4.92,
+      "prob": 0.296
+    },
+    {
+      "word": "this",
+      "start": 4.92,
+      "end": 5.06,
+      "prob": 0.861
+    },
+    {
+      "word": "research",
+      "start": 5.06,
+      "end": 5.68,
+      "prob": 0.817
+    },
+    {
+      "word": "on",
+      "start": 5.68,
+      "end": 5.94,
+      "prob": 0.814
+    },
+    {
+      "word": "it.",
+      "start": 5.94,
+      "end": 6.08,
+      "prob": 0.949
+    },
+    {
+      "word": "Yeah.",
+      "start": 6.22,
+      "end": 6.32,
+      "prob": 0.399
+    },
+    {
+      "word": "So",
+      "start": 6.5,
+      "end": 6.5,
+      "prob": 0.806
+    },
+    {
+      "word": "people",
+      "start": 6.5,
+      "end": 6.82,
+      "prob": 0.852
+    },
+    {
+      "word": "are.",
+      "start": 6.82,
+      "end": 6.98,
+      "prob": 0.434
+    },
+    {
+      "word": "Yeah.",
+      "start": 7.3,
+      "end": 7.3,
+      "prob": 0.393
+    },
+    {
+      "word": "So",
+      "start": 7.4,
+      "end": 7.52,
+      "prob": 0.752
+    },
+    {
+      "word": "I",
+      "start": 7.52,
+      "end": 8.0,
+      "prob": 0.954
+    },
+    {
+      "word": "have",
+      "start": 8.0,
+      "end": 8.1,
+      "prob": 0.58
+    },
+    {
+      "word": "seen",
+      "start": 8.1,
+      "end": 8.3,
+      "prob": 0.982
+    },
+    {
+      "word": "I've",
+      "start": 8.3,
+      "end": 8.62,
+      "prob": 0.789
+    },
+    {
+      "word": "put",
+      "start": 8.62,
+      "end": 8.9,
+      "prob": 0.994
+    },
+    {
+      "word": "AI",
+      "start": 8.9,
+      "end": 10.26,
+      "prob": 0.774
+    },
+    {
+      "word": "in",
+      "start": 10.26,
+      "end": 10.52,
+      "prob": 0.971
+    },
+    {
+      "word": "one",
+      "start": 10.52,
+      "end": 10.62,
+      "prob": 0.983
+    },
+    {
+      "word": "department,",
+      "start": 10.62,
+      "end": 10.98,
+      "prob": 0.973
+    },
+    {
+      "word": "which",
+      "start": 10.98,
+      "end": 11.96,
+      "prob": 0.884
+    },
+    {
+      "word": "was",
+      "start": 11.96,
+      "end": 12.4,
+      "prob": 0.938
+    },
+    {
+      "word": "a",
+      "start": 12.4,
+      "end": 12.52,
+      "prob": 0.993
+    },
+    {
+      "word": "very",
+      "start": 12.52,
+      "end": 12.68,
+      "prob": 0.997
+    },
+    {
+      "word": "crucial",
+      "start": 12.68,
+      "end": 12.92,
+      "prob": 0.999
+    },
+    {
+      "word": "department.",
+      "start": 12.92,
+      "end": 13.36,
+      "prob": 0.985
+    },
+    {
+      "word": "I",
+      "start": 13.82,
+      "end": 14.12,
+      "prob": 0.998
+    },
+    {
+      "word": "made",
+      "start": 14.12,
+      "end": 14.28,
+      "prob": 0.987
+    },
+    {
+      "word": "them",
+      "start": 14.28,
+      "end": 14.58,
+      "prob": 0.997
+    },
+    {
+      "word": "use",
+      "start": 14.58,
+      "end": 14.9,
+      "prob": 0.997
+    },
+    {
+      "word": "all",
+      "start": 14.9,
+      "end": 15.34,
+      "prob": 0.995
+    },
+    {
+      "word": "the",
+      "start": 15.34,
+      "end": 15.52,
+      "prob": 0.996
+    },
+    {
+      "word": "tools",
+      "start": 15.52,
+      "end": 15.68,
+      "prob": 0.999
+    },
+    {
+      "word": "in",
+      "start": 15.68,
+      "end": 15.86,
+      "prob": 0.995
+    },
+    {
+      "word": "the",
+      "start": 15.86,
+      "end": 15.98,
+      "prob": 0.999
+    },
+    {
+      "word": "world,",
+      "start": 15.98,
+      "end": 16.24,
+      "prob": 0.994
+    },
+    {
+      "word": "probably",
+      "start": 16.24,
+      "end": 17.28,
+      "prob": 0.977
+    },
+    {
+      "word": "led",
+      "start": 17.28,
+      "end": 18.58,
+      "prob": 0.559
+    },
+    {
+      "word": "last",
+      "start": 18.58,
+      "end": 19.78,
+      "prob": 0.956
+    },
+    {
+      "word": "six",
+      "start": 19.78,
+      "end": 20.16,
+      "prob": 0.94
+    },
+    {
+      "word": "months",
+      "start": 20.16,
+      "end": 20.48,
+      "prob": 0.975
+    },
+    {
+      "word": "forcing",
+      "start": 20.48,
+      "end": 20.9,
+      "prob": 0.509
+    },
+    {
+      "word": "them",
+      "start": 20.9,
+      "end": 21.3,
+      "prob": 0.999
+    },
+    {
+      "word": "to",
+      "start": 21.3,
+      "end": 21.46,
+      "prob": 0.999
+    },
+    {
+      "word": "start",
+      "start": 21.46,
+      "end": 21.68,
+      "prob": 0.995
+    },
+    {
+      "word": "using",
+      "start": 21.68,
+      "end": 22.04,
+      "prob": 0.978
+    },
+    {
+      "word": "this.",
+      "start": 22.04,
+      "end": 22.42,
+      "prob": 0.985
+    },
+    {
+      "word": "And",
+      "start": 22.54,
+      "end": 22.56,
+      "prob": 0.958
+    },
+    {
+      "word": "now",
+      "start": 22.56,
+      "end": 22.72,
+      "prob": 0.998
+    },
+    {
+      "word": "they're",
+      "start": 22.72,
+      "end": 22.88,
+      "prob": 0.719
+    },
+    {
+      "word": "become",
+      "start": 22.88,
+      "end": 23.1,
+      "prob": 0.722
+    },
+    {
+      "word": "so",
+      "start": 23.1,
+      "end": 23.32,
+      "prob": 0.987
+    },
+    {
+      "word": "dependent",
+      "start": 23.32,
+      "end": 23.64,
+      "prob": 0.972
+    },
+    {
+      "word": "that",
+      "start": 23.64,
+      "end": 24.42,
+      "prob": 0.896
+    },
+    {
+      "word": "they've",
+      "start": 24.42,
+      "end": 24.58,
+      "prob": 0.925
+    },
+    {
+      "word": "stopped",
+      "start": 24.58,
+      "end": 24.74,
+      "prob": 0.866
+    },
+    {
+      "word": "taking",
+      "start": 24.74,
+      "end": 25.22,
+      "prob": 0.986
+    },
+    {
+      "word": "judgment.",
+      "start": 25.22,
+      "end": 25.54,
+      "prob": 0.483
+    },
+    {
+      "word": "And",
+      "start": 25.54,
+      "end": 26.36,
+      "prob": 0.185
+    },
+    {
+      "word": "they're",
+      "start": 26.36,
+      "end": 27.3,
+      "prob": 0.802
+    },
+    {
+      "word": "just",
+      "start": 27.3,
+      "end": 27.42,
+      "prob": 0.991
+    },
+    {
+      "word": "letting",
+      "start": 27.42,
+      "end": 27.68,
+      "prob": 0.994
+    },
+    {
+      "word": "AI",
+      "start": 27.68,
+      "end": 27.92,
+      "prob": 0.87
+    },
+    {
+      "word": "do",
+      "start": 27.92,
+      "end": 28.18,
+      "prob": 0.946
+    },
+    {
+      "word": "the",
+      "start": 28.18,
+      "end": 28.32,
+      "prob": 0.687
+    },
+    {
+      "word": "work",
+      "start": 28.32,
+      "end": 28.54,
+      "prob": 0.997
+    },
+    {
+      "word": "and",
+      "start": 28.54,
+      "end": 28.64,
+      "prob": 0.786
+    },
+    {
+      "word": "they've",
+      "start": 28.64,
+      "end": 28.76,
+      "prob": 0.945
+    },
+    {
+      "word": "become",
+      "start": 28.76,
+      "end": 29.0,
+      "prob": 0.995
+    },
+    {
+      "word": "absolutely",
+      "start": 29.0,
+      "end": 29.34,
+      "prob": 0.885
+    },
+    {
+      "word": "dumbbell.",
+      "start": 29.34,
+      "end": 29.82,
+      "prob": 0.384
+    },
+    {
+      "word": "So",
+      "start": 29.88,
+      "end": 29.98,
+      "prob": 0.746
+    },
+    {
+      "word": "the",
+      "start": 29.98,
+      "end": 30.08,
+      "prob": 0.887
+    },
+    {
+      "word": "ideas",
+      "start": 30.08,
+      "end": 30.4,
+      "prob": 0.718
+    },
+    {
+      "word": "which",
+      "start": 30.4,
+      "end": 30.76,
+      "prob": 0.823
+    },
+    {
+      "word": "I",
+      "start": 30.76,
+      "end": 30.92,
+      "prob": 0.98
+    },
+    {
+      "word": "used",
+      "start": 30.92,
+      "end": 31.1,
+      "prob": 0.898
+    },
+    {
+      "word": "to",
+      "start": 31.1,
+      "end": 31.26,
+      "prob": 0.998
+    },
+    {
+      "word": "get",
+      "start": 31.26,
+      "end": 31.46,
+      "prob": 0.998
+    },
+    {
+      "word": "before",
+      "start": 31.46,
+      "end": 31.86,
+      "prob": 0.991
+    },
+    {
+      "word": "are",
+      "start": 31.86,
+      "end": 32.66,
+      "prob": 0.803
+    },
+    {
+      "word": "not",
+      "start": 32.66,
+      "end": 32.84,
+      "prob": 0.988
+    },
+    {
+      "word": "coming.",
+      "start": 32.84,
+      "end": 33.86,
+      "prob": 0.99
+    },
+    {
+      "word": "Yeah.",
+      "start": 34.16,
+      "end": 34.16,
+      "prob": 0.158
+    },
+    {
+      "word": "There",
+      "start": 34.64,
+      "end": 34.64,
+      "prob": 0.872
+    },
+    {
+      "word": "used",
+      "start": 34.64,
+      "end": 34.78,
+      "prob": 0.98
+    },
+    {
+      "word": "to",
+      "start": 34.78,
+      "end": 34.94,
+      "prob": 0.998
+    },
+    {
+      "word": "be",
+      "start": 34.94,
+      "end": 35.08,
+      "prob": 0.997
+    },
+    {
+      "word": "an",
+      "start": 35.08,
+      "end": 35.22,
+      "prob": 0.924
+    },
+    {
+      "word": "element",
+      "start": 35.22,
+      "end": 35.68,
+      "prob": 0.998
+    },
+    {
+      "word": "of",
+      "start": 35.68,
+      "end": 36.14,
+      "prob": 0.995
+    },
+    {
+      "word": "stupidity,",
+      "start": 36.14,
+      "end": 37.66,
+      "prob": 0.911
+    },
+    {
+      "word": "which",
+      "start": 38.26,
+      "end": 38.6,
+      "prob": 0.994
+    },
+    {
+      "word": "I",
+      "start": 38.6,
+      "end": 38.76,
+      "prob": 0.995
+    },
+    {
+      "word": "really",
+      "start": 38.76,
+      "end": 39.4,
+      "prob": 0.989
+    },
+    {
+      "word": "love.",
+      "start": 39.4,
+      "end": 39.82,
+      "prob": 0.989
+    },
+    {
+      "word": "Yeah.",
+      "start": 40.16,
+      "end": 40.24,
+      "prob": 0.468
+    },
+    {
+      "word": "Like",
+      "start": 40.72,
+      "end": 40.72,
+      "prob": 0.905
+    },
+    {
+      "word": "until",
+      "start": 40.72,
+      "end": 41.02,
+      "prob": 0.858
+    },
+    {
+      "word": "unless",
+      "start": 41.02,
+      "end": 41.32,
+      "prob": 0.855
+    },
+    {
+      "word": "there's",
+      "start": 41.32,
+      "end": 41.64,
+      "prob": 0.926
+    },
+    {
+      "word": "an",
+      "start": 41.64,
+      "end": 41.74,
+      "prob": 0.972
+    },
+    {
+      "word": "element",
+      "start": 41.74,
+      "end": 41.96,
+      "prob": 0.999
+    },
+    {
+      "word": "of",
+      "start": 41.96,
+      "end": 42.2,
+      "prob": 0.995
+    },
+    {
+      "word": "stupidity,",
+      "start": 42.2,
+      "end": 42.58,
+      "prob": 0.985
+    },
+    {
+      "word": "you",
+      "start": 43.28,
+      "end": 43.3,
+      "prob": 0.994
+    },
+    {
+      "word": "don't",
+      "start": 43.3,
+      "end": 43.5,
+      "prob": 0.998
+    },
+    {
+      "word": "have",
+      "start": 43.5,
+      "end": 43.64,
+      "prob": 0.999
+    },
+    {
+      "word": "an",
+      "start": 43.64,
+      "end": 43.72,
+      "prob": 0.987
+    },
+    {
+      "word": "original",
+      "start": 43.72,
+      "end": 43.88,
+      "prob": 0.996
+    },
+    {
+      "word": "idea.",
+      "start": 43.88,
+      "end": 44.34,
+      "prob": 0.995
+    },
+    {
+      "word": "Yeah.",
+      "start": 44.56,
+      "end": 44.7,
+      "prob": 0.583
+    },
+    {
+      "word": "Right.",
+      "start": 44.98,
+      "end": 44.98,
+      "prob": 0.788
+    },
+    {
+      "word": "Yep.",
+      "start": 45.5,
+      "end": 45.54,
+      "prob": 0.438
+    }
+  ]
+}

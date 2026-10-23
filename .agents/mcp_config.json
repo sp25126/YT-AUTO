@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "freesound-audio": {
+      "command": "npx",
+      "args": ["-y", "freesound-mcp"],
+      "env": {
+        "FREESOUND_API_KEY": "YOUR_FREE_FREESOUND_KEY"
+      }
+    },
+    "youtube-intelligence": {
+      "command": "npx",
+      "args": ["-y", "zubeid-youtube-mcp-server"],
+      "env": {
+        "YOUTUBE_API_KEY": "YOUR_FREE_YOUTUBE_DATA_API_KEY"
+      }
+    },
+    "ffmpeg-tools": {
+      "command": "uv",
+      "args": ["--directory", "core/ffmpeg_mcp", "run", "main.py"]
+    },
+    "browser-vision": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-puppeteer"]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "primary_mood": "comedy",
+  "start_time": 67.7,
+  "end_time": 110.3,
+  "beats": [
+    {"start": 67.7, "end": 78.4, "tone": "neutral"},
+    {"start": 78.4, "end": 88.0, "tone": "comedy"},
+    {"start": 88.0, "end": 99.5, "tone": "shock"},
+    {"start": 99.5, "end": 110.3, "tone": "neutral"}
+  ],
+  "silence_windows": [
+    {"start": 78.4, "end": 79.6}
+  ],
+  "sfx_cues": [
+    {"time": 78.4, "effect": "record_scratch"},
+    {"time": 88.0, "effect": "whoosh"},
+    {"time": 99.5, "effect": "braam"}
+  ],
+  "title": "Website Feedback Is Broken #shorts",
+  "tags": ["#shorts", "#webdevelopment", "#agency", "#devhumor", "#tech"]
+}

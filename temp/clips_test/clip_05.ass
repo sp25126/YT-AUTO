@@ -1,0 +1,59 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: BaseTone,Montserrat ExtraBold,76,&H00FFFFFF&,&H0000FFFF&,&H00000000&,&H90000000&,-1,0,0,0,100,100,0,0,1,8,3,2,60,60,450,1
+Style: Banner,Montserrat Black,50,&H00FFFFFF&,&H00000000&,&H00000000&,&HB0000000&,-1,0,0,0,100,100,2,0,3,6,0,8,40,40,240,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:43.00,Banner,,0,0,0,, YOUR IDEA MUST SOUND STUPID 
+Dialogue: 0,0:00:00.00,0:00:01.56,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k28}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}QUESTION, {\k57}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THERE {\k10}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}ARE
+Dialogue: 0,0:00:01.56,0:00:02.08,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k9}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}TWO {\k21}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}GAMES {\k20}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}YOU
+Dialogue: 0,0:00:02.08,0:00:03.28,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k23}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}PLAY {\k22}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IN {\k73}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}BUSINESS.
+Dialogue: 0,0:00:04.00,0:00:04.52,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k25}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}ONE {\k16}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IS {\k9}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}AN
+Dialogue: 0,0:00:04.52,0:00:05.64,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k26}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}INCREMENTAL {\k55}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}GAME. {\k5}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IT
+Dialogue: 0,0:00:05.64,0:00:06.10,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}SHOULD {\k13}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}NOT {\k17}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}BE
+Dialogue: 0,0:00:06.10,0:00:06.62,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k18}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}STUPID. {\k9}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IT'S {\k4}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}A
+Dialogue: 0,0:00:06.62,0:00:07.40,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k28}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}STEP {\k25}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}-JUMP {\k24}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}GAME.
+Dialogue: 0,0:00:07.60,0:00:08.18,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k2}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THE {\k21}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}PARADIGM {\k33}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}SHIFT
+Dialogue: 0,0:00:08.18,0:00:09.48,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k35}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}GAME {\k74}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}HAS {\k20}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}TO
+Dialogue: 0,0:00:09.48,0:00:10.72,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k11}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}BE {\k20}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}STUPID {\k92}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}BECAUSE
+Dialogue: 0,0:00:10.72,0:00:11.18,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k11}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IF {\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THE {\k19}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}WORLD
+Dialogue: 0,0:00:11.18,0:00:12.08,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k48}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}ALREADY {\k22}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}KNOWS {\k19}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}YOUR
+Dialogue: 0,0:00:12.08,0:00:12.74,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k27}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}SECRET, {\k8}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THEN {\k12}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THERE
+Dialogue: 0,0:00:12.74,0:00:13.22,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k11}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IS {\k12}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}NO {\k24}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}SECRET
+Dialogue: 0,0:00:13.22,0:00:13.88,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k25}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}TO {\k19}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}START {\k20}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}WITH.
+Dialogue: 0,0:00:14.38,0:00:15.14,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k39}SO {\k14}FIRST {\k22}OF
+Dialogue: 0,0:00:15.14,0:00:16.12,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k9}ALL, {\k6}THE {\k74}CLARITY
+Dialogue: 0,0:00:16.12,0:00:16.78,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k21}THAT {\k23}I {\k20}THINK
+Dialogue: 0,0:00:16.78,0:00:17.30,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k9}A {\k16}FOUNDER {\k26}SHOULD
+Dialogue: 0,0:00:17.30,0:00:17.80,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k19}HAVE {\k14}IS {\k16}WHICH
+Dialogue: 0,0:00:17.80,0:00:18.30,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k21}GAME {\k14}AM {\k14}I
+Dialogue: 0,0:00:18.30,0:00:20.40,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k17}PLAYING? {\k30}BECAUSE {\k45}IN
+Dialogue: 0,0:00:20.40,0:00:21.00,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k20}ONE, {\k3}THE {\k17}RISK
+Dialogue: 0,0:00:21.00,0:00:21.64,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k19}IS {\k19}VERY {\k24}HIGH,
+Dialogue: 0,0:00:21.78,0:00:22.20,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k3}THE {\k19}REWARD {\k17}IS
+Dialogue: 0,0:00:22.20,0:00:23.60,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k26}EQUALLY {\k39}HIGHER. {\k4}THEY
+Dialogue: 0,0:00:23.60,0:00:24.02,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k7}HAVE {\k17}EVEN {\k16}ONCE
+Dialogue: 0,0:00:24.02,0:00:24.90,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k55}IT'S {\k10}A {\k21}HEADACHE
+Dialogue: 0,0:00:24.90,0:00:25.74,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k50}AND {\k24}YOU'RE {\k9}JUST
+Dialogue: 0,0:00:25.74,0:00:26.48,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k24}HELPING {\k25}IT {\k24}HAPPEN
+Dialogue: 0,0:00:26.48,0:00:28.72,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k19}ONLINE. {\k6}BUT {\k111}IS
+Dialogue: 0,0:00:28.72,0:00:29.94,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k70}THAT {\k25}A {\k26}PARADIGM
+Dialogue: 0,0:00:29.94,0:00:31.38,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k45}SHIFT? {\k10}NO. {\k1}WILL
+Dialogue: 0,0:00:31.38,0:00:32.08,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k38}IT {\k13}BE {\k17}CALLED
+Dialogue: 0,0:00:32.08,0:00:33.54,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k32}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}STUPID? {\k2}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}NO. {\k25}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IS
+Dialogue: 0,0:00:33.54,0:00:33.88,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k11}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IT {\k8}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}A {\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}BAD
+Dialogue: 0,0:00:33.88,0:00:34.56,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k25}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}BUSINESS? {\k7}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}NO, {\k6}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IT'S
+Dialogue: 0,0:00:34.56,0:00:35.12,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k11}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}A {\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}GREAT {\k29}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}BUSINESS.
+Dialogue: 0,0:00:35.38,0:00:36.18,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k5}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IT'S {\k52}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}HERE {\k21}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IN
+Dialogue: 0,0:00:36.18,0:00:37.22,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k11}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}OUR {\k28}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}DEMAND {\k64}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}AND
+Dialogue: 0,0:00:37.22,0:00:37.78,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}YOU'RE {\k17}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}SERVING {\k24}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IT.
+Dialogue: 0,0:00:38.22,0:00:38.56,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k6}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}WILL {\k11}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IT {\k16}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}BE
+Dialogue: 0,0:00:38.56,0:00:40.38,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k123}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}ONE {\k22}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IS {\k35}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}2000?
+Dialogue: 0,0:00:40.76,0:00:41.72,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k8}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}NO. {\k20}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}PROBABLY {\k35}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}NO.
+Dialogue: 0,0:00:42.06,0:00:42.18,BaseTone,,0,0,0,,{\fs88\c&H002BF746&\i0\frz0}{\k11}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}RIGHT?

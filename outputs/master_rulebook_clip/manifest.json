@@ -1,0 +1,93 @@
+{
+  "clip_id": "short_why_startups_die",
+  "topic": "Why Startups Actually Die (The Timing Trap)",
+  "archetype": "hustle_alpha",
+  "timeline": {
+    "start_time": 2043.0,
+    "end_time": 2076.5,
+    "duration": 33.5
+  },
+  "framing_mode": "blurred_backdrop_focus",
+  "visual_tone": "dark_background",
+  "hook_evaluation": {
+    "formula_type": "The Statistic",
+    "hook_text": "Why will you fail before Year 1? Almost 90% of tech founders die from wrong timing.",
+    "hook_score": 83
+  },
+  "narrative_beats": [
+    {
+      "start": 0.0,
+      "end": 7.0,
+      "tone": "shock",
+      "description": "Contrarian Shock: Startups die not from trend, but wrong timing"
+    },
+    {
+      "start": 7.0,
+      "end": 13.0,
+      "tone": "whisper",
+      "description": "The Core Question: How to pick the right time to enter?"
+    },
+    {
+      "start": 13.0,
+      "end": 27.5,
+      "tone": "neutral",
+      "description": "The Mechanism: Build advisor net, talk to 20-year veterans"
+    },
+    {
+      "start": 27.5,
+      "end": 33.5,
+      "tone": "shock",
+      "description": "The Climax: Outside looks rosy, devil is in the detail"
+    }
+  ],
+  "silence_windows": [
+    {
+      "start": 5.2,
+      "end": 6.8,
+      "note": "Mute BGM on 'they die because of wrong timing'"
+    },
+    {
+      "start": 31.0,
+      "end": 33.2,
+      "note": "Mute BGM on punchline 'devil's always in the detail'"
+    }
+  ],
+  "sfx_cues": [
+    {
+      "time": 0.5,
+      "effect": "braam",
+      "volume": 0.45
+    },
+    {
+      "time": 7.0,
+      "effect": "whoosh",
+      "volume": 0.35
+    },
+    {
+      "time": 31.5,
+      "effect": "braam",
+      "volume": 0.45
+    }
+  ],
+  "packaging": {
+    "title": "Why Startups Die \ud83d\udc80 #shorts",
+    "title_length_excl_tags": 19,
+    "tags": [
+      "#startups",
+      "#venturecapital",
+      "#timing",
+      "#entrepreneur",
+      "#rajshamani",
+      "#shorts"
+    ],
+    "caption": "Most startups don't die from bad ideas. They die from wrong timing. \u23f3 Sravanth Aluru reveals why 90% of founders fail before they even start.",
+    "thumbnail_prompt": "Cinematic vertical 9:16 composition: Raj Shamani and Sravanth Aluru in deep dialogue with an ominous shattered hourglass and glowing nuclear green typography 'WHY STARTUPS DIE'. Dark moody lighting, ultra-sharp detail."
+  },
+  "compliance_checklist": {
+    "no_monolithic_yellow_text": true,
+    "no_generic_continuous_lofi": true,
+    "visual_stimulus_reset": true,
+    "sfx_under_limit": true,
+    "title_under_25_chars": true
+  }
+}

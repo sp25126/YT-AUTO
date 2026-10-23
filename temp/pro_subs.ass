@@ -1,0 +1,48 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ProGlow,Montserrat Black,102,&H00FFFFFF&,&H0000FFFF&,&H00000000&,&H00000000&,-1,0,0,0,100,100,1,0,1,10,6,5,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.64,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}BUT WHAT\N{\fs108\c&H0000E6FF&}ABOUT
+Dialogue: 0,0:00:00.64,0:00:01.42,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}THE TIMING?\N{\fs108\c&H0000E6FF&}A
+Dialogue: 0,0:00:01.42,0:00:01.84,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}LOT OF\N{\fs108\c&H0000E6FF&}PEOPLE,
+Dialogue: 0,0:00:02.06,0:00:02.54,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}A LOT\N{\fs108\c&H0000E6FF&}OF
+Dialogue: 0,0:00:02.54,0:00:03.72,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}STARTUPS DIE,\N{\fs108\c&H0000E6FF&}NOT
+Dialogue: 0,0:00:03.72,0:00:04.50,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}BECAUSE OF\N{\fs108\c&H0000E6FF&}TREND,
+Dialogue: 0,0:00:05.06,0:00:05.80,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}THEY DIE\N{\fs108\c&H0000E6FF&}BECAUSE
+Dialogue: 0,0:00:05.80,0:00:06.40,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}OF WRONG\N{\fs108\c&H0081B910&}TIMING.
+Dialogue: 0,0:00:06.88,0:00:07.38,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}YEAH, EITHER\N{\fs108\c&H0000E6FF&}THEY'RE
+Dialogue: 0,0:00:07.38,0:00:07.94,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}TOO EARLY\N{\fs108\c&H0000E6FF&}OR
+Dialogue: 0,0:00:07.94,0:00:08.74,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}TOO LATE.\N{\fs108\c&H0000E6FF&}SO
+Dialogue: 0,0:00:08.74,0:00:09.58,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}HOW DO\N{\fs108\c&H0000E6FF&}YOU
+Dialogue: 0,0:00:09.58,0:00:10.36,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}PICK UP\N{\fs108\c&H0000E6FF&}THE
+Dialogue: 0,0:00:10.36,0:00:11.16,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}RIGHT TIME\N{\fs108\c&H0000E6FF&}TO
+Dialogue: 0,0:00:11.16,0:00:12.84,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}ENTER A\N{\fs108\c&H0081B910&}SPACE
+Dialogue: 0,0:00:12.84,0:00:14.30,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}TO LEARN\N{\fs108\c&H0000E6FF&}AND
+Dialogue: 0,0:00:14.30,0:00:15.00,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}THEN EVENTUALLY\N{\fs108\c&H0000E6FF&}START
+Dialogue: 0,0:00:15.00,0:00:16.02,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}A BUSINESS?\N{\fs108\c&H0000E6FF&}NUMBER
+Dialogue: 0,0:00:16.02,0:00:17.38,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}ONE, YOU\N{\fs108\c&H0000E6FF&}CAN'T
+Dialogue: 0,0:00:17.38,0:00:17.74,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}JUST BE\N{\fs108\c&H0000E6FF&}ON
+Dialogue: 0,0:00:17.74,0:00:18.56,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}INTERNET, RIGHT?\N{\fs108\c&H0000E6FF&}YOU'VE
+Dialogue: 0,0:00:18.56,0:00:19.16,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}GOT TO\N{\fs108\c&H0000E6FF&}BE
+Dialogue: 0,0:00:19.16,0:00:20.22,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}ABLE TO\N{\fs108\c&H0000E6FF&}CREATE
+Dialogue: 0,0:00:20.22,0:00:21.72,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}AN ADVISOR\N{\fs108\c&H0081B910&}NETWORK
+Dialogue: 0,0:00:22.40,0:00:23.28,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}THE FIRST\N{\fs108\c&H0000E6FF&}THING
+Dialogue: 0,0:00:23.28,0:00:23.72,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}THAT YOU\N{\fs108\c&H0000E6FF&}WANT
+Dialogue: 0,0:00:23.72,0:00:24.10,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}TO DO\N{\fs108\c&H0000E6FF&}IS
+Dialogue: 0,0:00:24.10,0:00:25.40,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}TALK TO\N{\fs108\c&H0000E6FF&}PEOPLE
+Dialogue: 0,0:00:25.40,0:00:26.32,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}WHO'VE DONE\N{\fs108\c&H0000E6FF&}THIS
+Dialogue: 0,0:00:26.32,0:00:27.24,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}FOR A\N{\fs108\c&H0000E6FF&}WHILE.
+Dialogue: 0,0:00:27.80,0:00:28.56,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}BECAUSE WHAT\N{\fs108\c&H0000E6FF&}HAPPENS
+Dialogue: 0,0:00:28.56,0:00:29.42,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}IS OUTSIDE\N{\fs108\c&H0000E6FF&}AND
+Dialogue: 0,0:00:29.42,0:00:29.96,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}IT LOOKS\N{\fs108\c&H0000E6FF&}ALL
+Dialogue: 0,0:00:29.96,0:00:31.16,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}ROSY. BUT\N{\fs108\c&H0000E6FF&}ONCE
+Dialogue: 0,0:00:31.16,0:00:31.90,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}YOU GO,\N{\fs108\c&H0000E6FF&}THE
+Dialogue: 0,0:00:31.90,0:00:32.70,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}DEVIL'S ALWAYS\N{\fs108\c&H0000E6FF&}IN
+Dialogue: 0,0:00:32.70,0:00:33.02,ProGlow,,0,0,0,,{\an5\pos(540,1480)\t(0,60,\fscx115\fscy115)\t(60,130,\fscx100\fscy100)}{\fs68\c&H00FFFFFF&}THE\N{\fs108\c&H0081B910&}DETAIL.

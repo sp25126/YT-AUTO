@@ -1,0 +1,49 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SpeakerSub,Montserrat Black,76,&H00FFFFFF&,&H0000FFFF&,&H00000000&,&H90000000&,-1,0,0,0,100,100,1,0,1,8,4,5,60,60,60,1
+Style: TakeoverSub,Montserrat Black,74,&H00FFFFFF&,&H0000FFFF&,&H00141010&,&HD0000000&,-1,0,0,0,100,100,1,0,3,12,0,5,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.64,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}BUT WHAT ABOUT
+Dialogue: 0,0:00:00.64,0:00:01.42,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}THE {\c&H0073F72E&\fscx114\fscy114}TIMING?{\c&H00FFFFFF&\fscx100\fscy100} A
+Dialogue: 0,0:00:01.42,0:00:01.84,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}LOT OF PEOPLE,
+Dialogue: 0,0:00:02.06,0:00:02.54,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}A LOT OF
+Dialogue: 0,0:00:02.54,0:00:03.72,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}{\c&H0073F72E&\fscx114\fscy114}STARTUPS{\c&H00FFFFFF&\fscx100\fscy100} {\c&H0073F72E&\fscx114\fscy114}DIE,{\c&H00FFFFFF&\fscx100\fscy100} NOT
+Dialogue: 0,0:00:03.72,0:00:04.50,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}BECAUSE OF TREND,
+Dialogue: 0,0:00:05.06,0:00:05.80,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}THEY {\c&H0073F72E&\fscx114\fscy114}DIE{\c&H00FFFFFF&\fscx100\fscy100} BECAUSE
+Dialogue: 0,0:00:05.80,0:00:06.40,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}OF {\c&H0073F72E&\fscx114\fscy114}WRONG{\c&H00FFFFFF&\fscx100\fscy100} {\c&H0073F72E&\fscx114\fscy114}TIMING.{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:06.88,0:00:07.38,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}YEAH, EITHER THEY'RE
+Dialogue: 0,0:00:07.38,0:00:07.94,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}TOO {\c&H0073F72E&\fscx114\fscy114}EARLY{\c&H00FFFFFF&\fscx100\fscy100} OR
+Dialogue: 0,0:00:07.94,0:00:08.74,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}TOO {\c&H0073F72E&\fscx114\fscy114}LATE.{\c&H00FFFFFF&\fscx100\fscy100} SO
+Dialogue: 0,0:00:08.74,0:00:09.58,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}HOW DO YOU
+Dialogue: 0,0:00:09.58,0:00:10.36,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}PICK UP THE
+Dialogue: 0,0:00:10.36,0:00:11.16,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}RIGHT TIME TO
+Dialogue: 0,0:00:11.16,0:00:12.84,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}{\c&H0073F72E&\fscx114\fscy114}ENTER{\c&H00FFFFFF&\fscx100\fscy100} A {\c&H0073F72E&\fscx114\fscy114}SPACE{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:12.84,0:00:14.30,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}TO LEARN AND
+Dialogue: 0,0:00:14.30,0:00:15.00,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}THEN EVENTUALLY START
+Dialogue: 0,0:00:15.00,0:00:16.02,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}A {\c&H0073F72E&\fscx114\fscy114}BUSINESS?{\c&H00FFFFFF&\fscx100\fscy100} NUMBER
+Dialogue: 0,0:00:16.02,0:00:17.38,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}ONE, YOU CAN'T
+Dialogue: 0,0:00:17.38,0:00:17.74,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}JUST BE ON
+Dialogue: 0,0:00:17.74,0:00:18.56,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}INTERNET, RIGHT? YOU'VE
+Dialogue: 0,0:00:18.56,0:00:19.16,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}GOT TO BE
+Dialogue: 0,0:00:19.16,0:00:20.22,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}ABLE TO CREATE
+Dialogue: 0,0:00:20.22,0:00:21.72,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}A {\c&H0073F72E&\fscx114\fscy114}ADVISOR{\c&H00FFFFFF&\fscx100\fscy100} NET.
+Dialogue: 0,0:00:22.40,0:00:23.28,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}THE FIRST THING
+Dialogue: 0,0:00:23.28,0:00:23.72,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}THAT YOU WANT
+Dialogue: 0,0:00:23.72,0:00:24.10,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}TO DO IS
+Dialogue: 0,0:00:24.10,0:00:25.40,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}TALK TO PEOPLE
+Dialogue: 0,0:00:25.40,0:00:26.32,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}WHO'VE DONE THIS
+Dialogue: 0,0:00:26.32,0:00:27.24,SpeakerSub,,0,0,0,,{\an5\pos(540,1560)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}FOR A WHILE.
+Dialogue: 0,0:00:27.80,0:00:28.56,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}BECAUSE WHAT HAPPENS
+Dialogue: 0,0:00:28.56,0:00:29.42,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}IS OUTSIDE AND
+Dialogue: 0,0:00:29.42,0:00:29.96,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}IT LOOKS ALL
+Dialogue: 0,0:00:29.96,0:00:31.16,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}{\c&H0073F72E&\fscx114\fscy114}ROSY.{\c&H00FFFFFF&\fscx100\fscy100} BUT ONCE
+Dialogue: 0,0:00:31.16,0:00:31.90,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}YOU GO, THE
+Dialogue: 0,0:00:31.90,0:00:32.70,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}{\c&H0073F72E&\fscx114\fscy114}DEVIL'S{\c&H00FFFFFF&\fscx100\fscy100} ALWAYS IN
+Dialogue: 0,0:00:32.70,0:00:33.02,TakeoverSub,,0,0,0,,{\an5\pos(540,1740)}{\t(0,60,\fscx112\fscy112)\t(60,130,\fscx100\fscy100)}THE {\c&H0073F72E&\fscx114\fscy114}DETAIL.{\c&H00FFFFFF&\fscx100\fscy100}

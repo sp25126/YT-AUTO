@@ -1,0 +1,86 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: GlowBloom,Montserrat Black,88,&H00FFFFFF&,&H0000FFFF&,&H002BF746&,&H00000000&,-1,0,0,0,100,100,1,0,1,14,0,5,60,60,60,1
+Style: CrispCore,Montserrat Black,88,&H00FFFFFF&,&H0000FFFF&,&H00000000&,&H80000000&,-1,0,0,0,100,100,1,0,1,3,2,5,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.64,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}but what\N{\fnMontserrat Black\fs96\b1\i0}ABOUT
+Dialogue: 1,0:00:00.00,0:00:00.64,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}but what\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}ABOUT
+Dialogue: 0,0:00:00.64,0:00:01.42,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}the timing\N{\fnMontserrat Black\fs96\b1\i0}A
+Dialogue: 1,0:00:00.64,0:00:01.42,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}the timing\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}A
+Dialogue: 0,0:00:01.42,0:00:01.84,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}lot of\N{\fnMontserrat Black\fs96\b1\i0}PEOPLE
+Dialogue: 1,0:00:01.42,0:00:01.84,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}lot of\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}PEOPLE
+Dialogue: 0,0:00:02.06,0:00:02.54,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}a lot\N{\fnMontserrat Black\fs96\b1\i0}OF
+Dialogue: 1,0:00:02.06,0:00:02.54,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}a lot\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}OF
+Dialogue: 0,0:00:02.54,0:00:03.72,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}startups die\N{\fnMontserrat Black\fs96\b1\i0}NOT
+Dialogue: 1,0:00:02.54,0:00:03.72,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}startups die\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}NOT
+Dialogue: 0,0:00:03.72,0:00:04.50,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}because of\N{\fnMontserrat Black\fs96\b1\i0}TREND
+Dialogue: 1,0:00:03.72,0:00:04.50,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}because of\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}TREND
+Dialogue: 0,0:00:05.06,0:00:05.80,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}they die\N{\fnMontserrat Black\fs96\b1\i0}BECAUSE
+Dialogue: 1,0:00:05.06,0:00:05.80,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}they die\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}BECAUSE
+Dialogue: 0,0:00:05.80,0:00:06.40,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H00459E1B&\fnGeorgia\fs56\b0\i1}of wrong\N{\fnMontserrat Black\fs96\b1\i0}TIMING
+Dialogue: 1,0:00:05.80,0:00:06.40,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}of wrong\N{\fnMontserrat Black\fs96\b1\i0\c&H0073F72E&}TIMING
+Dialogue: 0,0:00:06.88,0:00:07.38,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}yeah either\N{\fnMontserrat Black\fs96\b1\i0}THEY'RE
+Dialogue: 1,0:00:06.88,0:00:07.38,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}yeah either\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}THEY'RE
+Dialogue: 0,0:00:07.38,0:00:07.94,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}too early\N{\fnMontserrat Black\fs96\b1\i0}OR
+Dialogue: 1,0:00:07.38,0:00:07.94,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}too early\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}OR
+Dialogue: 0,0:00:07.94,0:00:08.74,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}too late\N{\fnMontserrat Black\fs96\b1\i0}SO
+Dialogue: 1,0:00:07.94,0:00:08.74,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}too late\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}SO
+Dialogue: 0,0:00:08.74,0:00:09.58,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}how do\N{\fnMontserrat Black\fs96\b1\i0}YOU
+Dialogue: 1,0:00:08.74,0:00:09.58,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}how do\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}YOU
+Dialogue: 0,0:00:09.58,0:00:10.36,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}pick up\N{\fnMontserrat Black\fs96\b1\i0}THE
+Dialogue: 1,0:00:09.58,0:00:10.36,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}pick up\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}THE
+Dialogue: 0,0:00:10.36,0:00:11.16,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}right time\N{\fnMontserrat Black\fs96\b1\i0}TO
+Dialogue: 1,0:00:10.36,0:00:11.16,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}right time\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}TO
+Dialogue: 0,0:00:11.16,0:00:12.84,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H00459E1B&\fnGeorgia\fs56\b0\i1}enter a\N{\fnMontserrat Black\fs96\b1\i0}SPACE
+Dialogue: 1,0:00:11.16,0:00:12.84,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}enter a\N{\fnMontserrat Black\fs96\b1\i0\c&H0073F72E&}SPACE
+Dialogue: 0,0:00:12.84,0:00:14.30,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}to learn\N{\fnMontserrat Black\fs96\b1\i0}AND
+Dialogue: 1,0:00:12.84,0:00:14.30,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}to learn\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}AND
+Dialogue: 0,0:00:14.30,0:00:15.00,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}then eventually\N{\fnMontserrat Black\fs96\b1\i0}START
+Dialogue: 1,0:00:14.30,0:00:15.00,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}then eventually\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}START
+Dialogue: 0,0:00:15.00,0:00:16.02,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}a business\N{\fnMontserrat Black\fs96\b1\i0}NUMBER
+Dialogue: 1,0:00:15.00,0:00:16.02,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}a business\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}NUMBER
+Dialogue: 0,0:00:16.02,0:00:17.38,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}one you\N{\fnMontserrat Black\fs96\b1\i0}CAN'T
+Dialogue: 1,0:00:16.02,0:00:17.38,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}one you\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}CAN'T
+Dialogue: 0,0:00:17.38,0:00:17.74,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}just be\N{\fnMontserrat Black\fs96\b1\i0}ON
+Dialogue: 1,0:00:17.38,0:00:17.74,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}just be\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}ON
+Dialogue: 0,0:00:17.74,0:00:18.56,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}internet right\N{\fnMontserrat Black\fs96\b1\i0}YOU'VE
+Dialogue: 1,0:00:17.74,0:00:18.56,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}internet right\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}YOU'VE
+Dialogue: 0,0:00:18.56,0:00:19.16,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}got to\N{\fnMontserrat Black\fs96\b1\i0}BE
+Dialogue: 1,0:00:18.56,0:00:19.16,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}got to\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}BE
+Dialogue: 0,0:00:19.16,0:00:20.22,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}able to\N{\fnMontserrat Black\fs96\b1\i0}CREATE
+Dialogue: 1,0:00:19.16,0:00:20.22,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}able to\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}CREATE
+Dialogue: 0,0:00:20.22,0:00:21.72,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}a advisor\N{\fnMontserrat Black\fs96\b1\i0}NET
+Dialogue: 1,0:00:20.22,0:00:21.72,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}a advisor\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}NET
+Dialogue: 0,0:00:22.40,0:00:23.28,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}the first\N{\fnMontserrat Black\fs96\b1\i0}THING
+Dialogue: 1,0:00:22.40,0:00:23.28,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}the first\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}THING
+Dialogue: 0,0:00:23.28,0:00:23.72,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}that you\N{\fnMontserrat Black\fs96\b1\i0}WANT
+Dialogue: 1,0:00:23.28,0:00:23.72,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}that you\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}WANT
+Dialogue: 0,0:00:23.72,0:00:24.10,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}to do\N{\fnMontserrat Black\fs96\b1\i0}IS
+Dialogue: 1,0:00:23.72,0:00:24.10,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}to do\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}IS
+Dialogue: 0,0:00:24.10,0:00:25.40,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}talk to\N{\fnMontserrat Black\fs96\b1\i0}PEOPLE
+Dialogue: 1,0:00:24.10,0:00:25.40,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}talk to\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}PEOPLE
+Dialogue: 0,0:00:25.40,0:00:26.32,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}who've done\N{\fnMontserrat Black\fs96\b1\i0}THIS
+Dialogue: 1,0:00:25.40,0:00:26.32,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}who've done\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}THIS
+Dialogue: 0,0:00:26.32,0:00:27.24,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}for a\N{\fnMontserrat Black\fs96\b1\i0}WHILE
+Dialogue: 1,0:00:26.32,0:00:27.24,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}for a\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}WHILE
+Dialogue: 0,0:00:27.80,0:00:28.56,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}because what\N{\fnMontserrat Black\fs96\b1\i0}HAPPENS
+Dialogue: 1,0:00:27.80,0:00:28.56,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}because what\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}HAPPENS
+Dialogue: 0,0:00:28.56,0:00:29.42,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}is outside\N{\fnMontserrat Black\fs96\b1\i0}AND
+Dialogue: 1,0:00:28.56,0:00:29.42,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}is outside\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}AND
+Dialogue: 0,0:00:29.42,0:00:29.96,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}it looks\N{\fnMontserrat Black\fs96\b1\i0}ALL
+Dialogue: 1,0:00:29.42,0:00:29.96,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}it looks\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}ALL
+Dialogue: 0,0:00:29.96,0:00:31.16,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}rosy but\N{\fnMontserrat Black\fs96\b1\i0}ONCE
+Dialogue: 1,0:00:29.96,0:00:31.16,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}rosy but\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}ONCE
+Dialogue: 0,0:00:31.16,0:00:31.90,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}you go\N{\fnMontserrat Black\fs96\b1\i0}THE
+Dialogue: 1,0:00:31.16,0:00:31.90,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}you go\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}THE
+Dialogue: 0,0:00:31.90,0:00:32.70,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H000088B0&\fnGeorgia\fs56\b0\i1}devil's always\N{\fnMontserrat Black\fs96\b1\i0}IN
+Dialogue: 1,0:00:31.90,0:00:32.70,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}devil's always\N{\fnMontserrat Black\fs96\b1\i0\c&H0000E6FF&}IN
+Dialogue: 0,0:00:32.70,0:00:33.02,GlowBloom,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\blur16\3c&H00459E1B&\fnGeorgia\fs56\b0\i1}the\N{\fnMontserrat Black\fs96\b1\i0}DETAIL
+Dialogue: 1,0:00:32.70,0:00:33.02,CrispCore,,0,0,0,,{\an5\pos(540,1290)\t(0,65,\fscx114\fscy114)\t(65,140,\fscx100\fscy100)}{\fnGeorgia\fs56\b0\i1\c&H00E4E4E7&}the\N{\fnMontserrat Black\fs96\b1\i0\c&H0073F72E&}DETAIL

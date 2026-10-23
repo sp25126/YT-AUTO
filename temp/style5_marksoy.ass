@@ -1,0 +1,62 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: MarkSoyWord,Montserrat,84,&H00FFFFFF&,&H0000FFFF&,&H00000000&,&H00000000&,-1,0,0,0,100,100,-1,0,1,3,6,5,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.24,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}but
+Dialogue: 0,0:00:00.24,0:00:00.40,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}what
+Dialogue: 0,0:00:00.40,0:00:00.64,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}about
+Dialogue: 0,0:00:00.64,0:00:00.76,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}the
+Dialogue: 0,0:00:00.76,0:00:00.98,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}timing
+Dialogue: 0,0:00:01.42,0:00:01.54,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}a
+Dialogue: 0,0:00:01.42,0:00:01.54,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}lot
+Dialogue: 0,0:00:01.52,0:00:01.64,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}of
+Dialogue: 0,0:00:01.64,0:00:01.84,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}people
+Dialogue: 0,0:00:02.06,0:00:02.20,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}a
+Dialogue: 0,0:00:05.96,0:00:06.10,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H004444EF&}wrong
+Dialogue: 0,0:00:06.10,0:00:06.40,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}timing
+Dialogue: 0,0:00:06.88,0:00:07.00,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}yeah
+Dialogue: 0,0:00:06.98,0:00:07.16,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}either
+Dialogue: 0,0:00:07.16,0:00:07.38,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}they're
+Dialogue: 0,0:00:07.38,0:00:07.54,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}too
+Dialogue: 0,0:00:07.54,0:00:07.80,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}early
+Dialogue: 0,0:00:07.80,0:00:07.94,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}or
+Dialogue: 0,0:00:07.94,0:00:08.08,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}too
+Dialogue: 0,0:00:08.08,0:00:08.26,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H004444EF&}late
+Dialogue: 0,0:00:08.74,0:00:08.86,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}so
+Dialogue: 0,0:00:08.74,0:00:09.36,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}how
+Dialogue: 0,0:00:09.36,0:00:09.50,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}do
+Dialogue: 0,0:00:09.50,0:00:09.62,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}you
+Dialogue: 0,0:00:09.58,0:00:09.82,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}pick
+Dialogue: 0,0:00:09.82,0:00:10.02,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}up
+Dialogue: 0,0:00:10.02,0:00:10.36,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}the
+Dialogue: 0,0:00:10.36,0:00:10.60,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}right
+Dialogue: 0,0:00:15.86,0:00:16.02,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}number
+Dialogue: 0,0:00:16.02,0:00:16.34,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}one
+Dialogue: 0,0:00:16.56,0:00:17.14,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}you
+Dialogue: 0,0:00:17.14,0:00:17.38,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}can't
+Dialogue: 0,0:00:17.38,0:00:17.50,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}just
+Dialogue: 0,0:00:17.48,0:00:17.64,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}be
+Dialogue: 0,0:00:17.64,0:00:17.76,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}on
+Dialogue: 0,0:00:17.74,0:00:17.98,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}internet
+Dialogue: 0,0:00:18.32,0:00:18.44,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}right
+Dialogue: 0,0:00:18.48,0:00:18.60,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}you've
+Dialogue: 0,0:00:18.56,0:00:18.72,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}got
+Dialogue: 0,0:00:18.72,0:00:18.98,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}to
+Dialogue: 0,0:00:18.98,0:00:19.16,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}be
+Dialogue: 0,0:00:19.16,0:00:19.70,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}able
+Dialogue: 0,0:00:19.70,0:00:19.90,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}to
+Dialogue: 0,0:00:19.90,0:00:20.22,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}create
+Dialogue: 0,0:00:20.22,0:00:20.44,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}a
+Dialogue: 0,0:00:20.44,0:00:21.04,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}advisor
+Dialogue: 0,0:00:26.04,0:00:26.32,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}this
+Dialogue: 0,0:00:26.32,0:00:26.90,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}for
+Dialogue: 0,0:00:26.90,0:00:27.02,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}a
+Dialogue: 0,0:00:27.02,0:00:27.24,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}while
+Dialogue: 0,0:00:27.80,0:00:28.12,MarkSoyWord,,0,0,0,,{\an5\pos(540,1160)}{\c&H00FFFFFF&}because

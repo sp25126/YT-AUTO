@@ -1,0 +1,51 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: BaseTone,Montserrat ExtraBold,78,&H00FFFFFF&,&H0000FFFF&,&H00000000&,&H90000000&,-1,0,0,0,100,100,0,0,1,6,3,2,60,60,480,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.50,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k6}IT'S {\k14}LOST {\k29}BEFORE
+Dialogue: 0,0:00:00.50,0:00:01.00,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k15}IT {\k18}REACHES {\k15}THE
+Dialogue: 0,0:00:01.00,0:00:02.14,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k28}DEVELOPER. {\k18}IT {\k21}ARRIVES
+Dialogue: 0,0:00:02.14,0:00:02.90,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k17}AT {\k26}SCREENSHOTS {\k31}AND
+Dialogue: 0,0:00:02.90,0:00:03.94,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k20}CHAT {\k56}NOTES {\k28}AND
+Dialogue: 0,0:00:03.94,0:00:05.26,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k87}SCREENSHOTS {\k43}AND {\k1}CHAT
+Dialogue: 0,0:00:05.26,0:00:05.86,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k26}NOTES {\k14}AND {\k20}EMAIL
+Dialogue: 0,0:00:05.86,0:00:06.50,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k25}MESSAGE {\k20}LIKE {\k18}MAKE
+Dialogue: 0,0:00:06.50,0:00:07.16,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k14}IT {\k20}CLEANER {\k31}AND
+Dialogue: 0,0:00:07.16,0:00:07.56,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k7}YOUR {\k15}TEAM {\k16}THEN
+Dialogue: 0,0:00:07.56,0:00:08.28,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k11}SPENDS {\k32}HOURS {\k28}WORKING
+Dialogue: 0,0:00:08.28,0:00:08.70,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k14}OUT {\k15}WHICH {\k12}PAGE
+Dialogue: 0,0:00:08.70,0:00:09.50,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k25}OR {\k32}SHELLMAN {\k21}WHAT
+Dialogue: 0,0:00:09.50,0:00:10.12,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k25}SCREEN {\k18}THE {\k17}PERSON
+Dialogue: 0,0:00:10.12,0:00:11.60,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k28}MEANT. {\k10}OKAY, {\k29}SCREENSHOTS
+Dialogue: 0,0:00:11.60,0:00:12.36,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-4}{\k42}DO {\k14}NOT {\k20}SAY
+Dialogue: 0,0:00:12.36,0:00:13.08,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-4}{\k21}WHICH {\k26}PAGE {\k23}OR
+Dialogue: 0,0:00:13.08,0:00:16.04,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-4}{\k37}DEVICE. {\k43}CHAT {\k42}THREADS
+Dialogue: 0,0:00:16.04,0:00:16.90,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-4}{\k21}BURY {\k28}THE {\k35}DECISION.
+Dialogue: 0,0:00:17.90,0:00:18.86,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-4}{\k48}VAGUE {\k20}NOTES {\k28}CAUSE
+Dialogue: 0,0:00:18.86,0:00:19.68,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-4}{\k31}EXTRA {\k34}ROUNDS {\k15}OF
+Dialogue: 0,0:00:19.68,0:00:21.54,BaseTone,,0,0,0,,{\fs82\c&H0000D4FF&\i0\frz-4}{\k18}CHANGES. {\k14}OKAY, {\k28}SHARE
+Dialogue: 0,0:00:21.54,0:00:22.04,BaseTone,,0,0,0,,{\fs92\c&H0033FF33&\i0\frz0}{\k20}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}IF {\k7}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}YOU {\k21}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}FIX
+Dialogue: 0,0:00:22.04,0:00:22.86,BaseTone,,0,0,0,,{\fs92\c&H0033FF33&\i0\frz0}{\k28}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}SHARE, {\k14}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}PAGE {\k14}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}OR
+Dialogue: 0,0:00:22.86,0:00:23.38,BaseTone,,0,0,0,,{\fs92\c&H0033FF33&\i0\frz0}{\k9}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}WEBSITE {\k29}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}ADDRESS {\k12}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}AND
+Dialogue: 0,0:00:23.38,0:00:23.78,BaseTone,,0,0,0,,{\fs92\c&H0033FF33&\i0\frz0}{\k14}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}CREATE {\k9}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}A {\k16}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}REVIEW
+Dialogue: 0,0:00:23.78,0:00:25.42,BaseTone,,0,0,0,,{\fs92\c&H0033FF33&\i0\frz0}{\k43}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}LINK, {\k23}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}REVIEWERS {\k26}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}UP
+Dialogue: 0,0:00:25.42,0:00:25.78,BaseTone,,0,0,0,,{\fs92\c&H0033FF33&\i0\frz0}{\k14}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}ON {\k3}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}THE {\k18}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}LINK,
+Dialogue: 0,0:00:25.80,0:00:26.42,BaseTone,,0,0,0,,{\fs92\c&H0033FF33&\i0\frz0}{\k18}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}CLICK {\k23}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}ANYWHERE {\k20}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}ON
+Dialogue: 0,0:00:26.42,0:00:27.06,BaseTone,,0,0,0,,{\fs92\c&H0033FF33&\i0\frz0}{\k7}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}THE {\k21}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}PAGE, {\k30}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}LEAVE
+Dialogue: 0,0:00:27.06,0:00:27.68,BaseTone,,0,0,0,,{\fs92\c&H0033FF33&\i0\frz0}{\k9}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}A {\k26}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}COMMENT, {\k11}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}NOTHING
+Dialogue: 0,0:00:27.68,0:00:29.76,BaseTone,,0,0,0,,{\fs92\c&H0033FF33&\i0\frz0}{\k14}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}TO {\k38}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}INSTALL. {\k41}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}YOUR
+Dialogue: 0,0:00:29.76,0:00:30.46,BaseTone,,0,0,0,,{\fs92\c&H0033FF33&\i0\frz0}{\k24}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}TEAM {\k20}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}SEES {\k25}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}EACH
+Dialogue: 0,0:00:30.46,0:00:31.16,BaseTone,,0,0,0,,{\fs92\c&H0033FF33&\i0\frz0}{\k29}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}COMMENT {\k28}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}ON {\k12}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:31.16,0:00:35.34,BaseTone,,0,0,0,,{\fs92\c&H0033FF33&\i0\frz0}{\k14}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}EXACT {\k48}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}ELEMENT. {\k48}{\t(0,100,\fscx125\fscy125)\t(100,200,\fscx100\fscy100)}INSTANTLY
+Dialogue: 0,0:00:35.34,0:00:36.24,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k27}GENERATION {\k44}WITH {\k17}ZERO
+Dialogue: 0,0:00:36.24,0:00:36.84,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k21}LOG {\k20}-IN {\k18}LAWS
+Dialogue: 0,0:00:36.84,0:00:37.44,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k25}FOR {\k7}YOUR {\k26}CLIENT.
+Dialogue: 0,0:00:40.42,0:00:41.42,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k47}BUILT {\k18}FOR {\k34}PRECISION
+Dialogue: 0,0:00:41.42,0:00:42.28,BaseTone,,0,0,0,,{\fs78\c&H00FFFFFF&\i0\frz0}{\k28}REVIEWS, {\k12}NOTHING

@@ -1,0 +1,44 @@
+{
+  "voiceover": {
+    "voice": "en-US-ChristopherNeural",
+    "rate": "+12%",
+    "pitch": "-4Hz",
+    "script": "Why do 90% of tech startups fail? It is not a bad product. It is brutal, ruthless timing. If you launch too early, the market does not exist. If you launch too late, giants crush you. Master your timing, and you conquer the market."
+  },
+  "vfx_preset": "chromatic_dark_vignette",
+  "bgm_track": "dark_synth_drive.mp3",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "duration": 3.2,
+      "image_prompt": "Futuristic glowing hourglass shattering into digital binary particles, dark cyberpunk table, cinematic 8k",
+      "animation": "ken_burns_zoom_in",
+      "transition": "flash_cut",
+      "sfx": "braam"
+    },
+    {
+      "scene_id": 2,
+      "duration": 3.8,
+      "image_prompt": "Solitary tech founder silhouette gazing at glowing holographic charts in dark high-tech office",
+      "animation": "pan_right",
+      "transition": "cut",
+      "sfx": "whoosh"
+    },
+    {
+      "scene_id": 3,
+      "duration": 4.2,
+      "image_prompt": "Colossal corporate skyscraper monolithic towers rising through heavy fog with red neon warning lights",
+      "animation": "ken_burns_zoom_out",
+      "transition": "cut",
+      "sfx": "braam"
+    },
+    {
+      "scene_id": 4,
+      "duration": 4.5,
+      "image_prompt": "Golden illumination radiating over high tech futuristic city network grid, victorious dramatic lighting",
+      "animation": "ken_burns_zoom_in",
+      "transition": "cut",
+      "sfx": "whoosh"
+    }
+  ]
+}

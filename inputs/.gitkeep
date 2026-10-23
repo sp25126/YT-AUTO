@@ -1,0 +1,2 @@
+# Place input raw podcast/video files here (.mp4, .mov, etc.)
+# Note: Large raw video files (>100MB) are ignored by git to avoid GitHub upload limit errors.

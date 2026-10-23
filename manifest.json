@@ -1,0 +1,16 @@
+{
+  "archetype": "comedy_banter",
+  "start_time": 67.7,
+  "end_time": 110.3,
+  "silence_windows": [
+    {"start": 78.4, "end": 79.6}
+  ],
+  "sfx_markers": [
+    {"time": 78.4, "effect": "record_scratch"},
+    {"time": 85.6, "effect": "snap_pop"},
+    {"time": 108.1, "effect": "braam_hit"}
+  ],
+  "title": "Fix Web Feedback #shorts",
+  "tags": ["#shorts", "#webdevelopment", "#agency", "#clientfeedback", "#developer"],
+  "thumbnail_prompt": "Cinematic 9:16 vertical split composition: top half shows a frustrated developer analyzing chaotic red screenshots and chat messages on a glowing monitor, bottom half shows a clean live website preview with interactive review pins, moody dark studio lighting, high contrast rim lighting, 8k hyper-detailed."
+}

@@ -1,0 +1,61 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: BaseTone,Montserrat ExtraBold,76,&H00FFFFFF&,&H0000FFFF&,&H00000000&,&H90000000&,-1,0,0,0,100,100,0,0,1,8,3,2,60,60,450,1
+Style: Banner,Montserrat Black,50,&H00FFFFFF&,&H00000000&,&H00000000&,&HB0000000&,-1,0,0,0,100,100,2,0,3,6,0,8,40,40,240,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:52.00,Banner,,0,0,0,, CODERS ARE FIRST TO BE REPLACED 
+Dialogue: 0,0:00:00.56,0:00:01.92,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k43}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}LIKE {\k30}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}A {\k61}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}LOT
+Dialogue: 0,0:00:01.92,0:00:02.64,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k16}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}OF {\k16}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THE {\k39}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}JOBS
+Dialogue: 0,0:00:02.64,0:00:03.38,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k41}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THAT {\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}WE {\k17}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}DO,
+Dialogue: 0,0:00:03.68,0:00:05.26,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k4}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}I {\k127}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}KEEP {\k25}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}SAYING
+Dialogue: 0,0:00:05.26,0:00:06.00,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k18}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THAT {\k13}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THE {\k41}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}CODERS
+Dialogue: 0,0:00:06.00,0:00:06.42,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k13}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}ARE {\k10}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THE {\k17}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}FIRST
+Dialogue: 0,0:00:06.42,0:00:07.40,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k21}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}TO {\k18}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}GO. {\k36}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}SO
+Dialogue: 0,0:00:07.40,0:00:09.40,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k31}KARMA, {\k58}RIGHT, {\k20}BUT
+Dialogue: 0,0:00:09.40,0:00:10.18,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k33}IT'S {\k24}NOT {\k19}GOING
+Dialogue: 0,0:00:10.18,0:00:10.66,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k14}TO {\k21}STOP {\k12}AT
+Dialogue: 0,0:00:10.66,0:00:11.66,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k33}CODERS. {\k4}IT'S {\k27}GOING
+Dialogue: 0,0:00:11.66,0:00:13.74,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k22}TO {\k21}GO {\k164}DISRUPT
+Dialogue: 0,0:00:13.74,0:00:14.40,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k33}A {\k19}LOT {\k12}OF
+Dialogue: 0,0:00:14.40,0:00:15.70,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k11}THE {\k82}KNOWLEDGE {\k35}WORKER
+Dialogue: 0,0:00:15.70,0:00:17.96,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k153}CONCEPT {\k52}THAT {\k19}WE
+Dialogue: 0,0:00:17.96,0:00:18.76,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k32}LIVE {\k17}WITH {\k30}TODAY.
+Dialogue: 0,0:00:19.56,0:00:20.32,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k44}SO {\k21}IT'S {\k10}A,
+Dialogue: 0,0:00:20.32,0:00:21.06,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k44}I {\k11}WOULD {\k17}SAY
+Dialogue: 0,0:00:21.06,0:00:22.06,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k17}A {\k50}PARADIGM {\k32}SHIFT
+Dialogue: 0,0:00:22.06,0:00:22.60,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k22}THAT {\k16}ONE {\k16}NEEDS
+Dialogue: 0,0:00:22.60,0:00:23.18,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k19}TO {\k16}MAKE {\k21}IF
+Dialogue: 0,0:00:23.18,0:00:23.58,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k8}YOU {\k16}LOOK {\k15}AT
+Dialogue: 0,0:00:23.58,0:00:24.36,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k26}THE {\k19}NEXT {\k32}TWO
+Dialogue: 0,0:00:24.36,0:00:25.10,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k26}DECADES {\k27}OF {\k20}CAREER.
+Dialogue: 0,0:00:26.10,0:00:27.24,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k43}AND {\k44}I {\k25}WAS
+Dialogue: 0,0:00:27.24,0:00:27.98,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k22}ACTUALLY {\k25}READING {\k26}UP
+Dialogue: 0,0:00:27.98,0:00:28.90,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k16}THE {\k21}INDUSTRIAL {\k53}REVOLUTION.
+Dialogue: 0,0:00:28.90,0:00:29.62,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k56}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}SO {\k5}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}I {\k10}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}WAS
+Dialogue: 0,0:00:29.62,0:00:30.90,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k83}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IN {\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THIS {\k29}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}WORLD
+Dialogue: 0,0:00:30.90,0:00:32.76,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k20}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}ECONOMIC {\k55}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}FORUM {\k109}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}INITIATIVE
+Dialogue: 0,0:00:32.76,0:00:34.10,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k94}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}AND {\k11}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THEY {\k28}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}FRAMED
+Dialogue: 0,0:00:34.10,0:00:34.84,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}IT, {\k25}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}FRAMED {\k26}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}AI
+Dialogue: 0,0:00:34.84,0:00:35.54,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k27}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}AS {\k24}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THE {\k17}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}NEXT
+Dialogue: 0,0:00:35.54,0:00:38.40,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k89}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}INDUSTRIAL {\k98}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}REVOLUTION. {\k15}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}SO
+Dialogue: 0,0:00:38.40,0:00:39.08,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k10}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}I {\k32}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}ACTUALLY {\k25}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}SAID,
+Dialogue: 0,0:00:39.32,0:00:39.90,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k33}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}LET {\k12}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}ME {\k11}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}GO
+Dialogue: 0,0:00:39.90,0:00:40.32,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}BACK {\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}AND {\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}READ
+Dialogue: 0,0:00:40.32,0:00:41.38,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k17}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}UP {\k74}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}AND {\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}VOTE
+Dialogue: 0,0:00:41.38,0:00:42.36,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k57}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}TO {\k15}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}MY {\k24}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}HORRORS.
+Dialogue: 0,0:00:42.74,0:00:43.24,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k1}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}I {\k16}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}REALLY, {\k32}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}I
+Dialogue: 0,0:00:43.24,0:00:43.66,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k11}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}GOT {\k16}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}TO {\k13}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}KNOW
+Dialogue: 0,0:00:43.66,0:00:44.50,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k22}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THAT {\k47}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THE {\k14}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}LAST
+Dialogue: 0,0:00:44.50,0:00:45.70,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k34}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}INDUSTRIAL {\k55}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}REVOLUTION {\k30}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}WHEN
+Dialogue: 0,0:00:45.70,0:00:46.76,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k33}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}SAY {\k20}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}MACHINES {\k51}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}BEAT
+Dialogue: 0,0:00:46.76,0:00:47.98,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k26}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}HUMAN {\k35}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}BODY {\k59}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}TOOK
+Dialogue: 0,0:00:47.98,0:00:48.88,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k32}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}FOUR {\k34}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}DECADES {\k24}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}OF
+Dialogue: 0,0:00:48.88,0:00:51.00,BaseTone,,0,0,0,,{\fs88\c&H00FFA500&\i0\frz0}{\k19}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}PAIN {\k162}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}FOR {\k29}{\t(0,80,\fscx120\fscy120)\t(80,180,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:51.00,0:00:51.92,BaseTone,,0,0,0,,{\fs76\c&H00FFFFFF&\i0\frz0}{\k32}YEARS {\k32}OF, {\k10}YEAH.

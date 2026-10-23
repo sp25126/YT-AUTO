@@ -1,0 +1,828 @@
+{
+  "clip_info": {
+    "id": "clip_05",
+    "title": "Your Idea Must Sound Stupid",
+    "start": 221.0,
+    "end": 264.0,
+    "archetype": "hustle_alpha"
+  },
+  "full_text": "question, there are two games you play in business. One is an incremental game. It should not be stupid. It's a step-jump game. The paradigm shift game has to be stupid because if the world already knows your secret, then there is no secret to start with. So first of all, the clarity that I think a founder should have is which game am I playing? Because in one, the risk is very high, the reward is equally higher. They have even once it's a headache and you're just helping it happen online. But is that a paradigm shift? No. Will it be called stupid? No. Is it a bad business? No, it's a great business. It's here in our demand and you're serving it. Will it be one is 2000? No. Probably no. Right?",
+  "words": [
+    {
+      "word": "question,",
+      "start": 0.0,
+      "end": 0.28,
+      "prob": 0.436
+    },
+    {
+      "word": "there",
+      "start": 0.88,
+      "end": 1.46,
+      "prob": 0.225
+    },
+    {
+      "word": "are",
+      "start": 1.46,
+      "end": 1.56,
+      "prob": 0.685
+    },
+    {
+      "word": "two",
+      "start": 1.56,
+      "end": 1.66,
+      "prob": 0.939
+    },
+    {
+      "word": "games",
+      "start": 1.66,
+      "end": 1.88,
+      "prob": 0.968
+    },
+    {
+      "word": "you",
+      "start": 1.88,
+      "end": 2.08,
+      "prob": 0.958
+    },
+    {
+      "word": "play",
+      "start": 2.08,
+      "end": 2.32,
+      "prob": 0.977
+    },
+    {
+      "word": "in",
+      "start": 2.32,
+      "end": 2.54,
+      "prob": 0.976
+    },
+    {
+      "word": "business.",
+      "start": 2.54,
+      "end": 3.28,
+      "prob": 0.741
+    },
+    {
+      "word": "One",
+      "start": 4.0,
+      "end": 4.26,
+      "prob": 0.972
+    },
+    {
+      "word": "is",
+      "start": 4.26,
+      "end": 4.42,
+      "prob": 0.982
+    },
+    {
+      "word": "an",
+      "start": 4.42,
+      "end": 4.52,
+      "prob": 0.96
+    },
+    {
+      "word": "incremental",
+      "start": 4.52,
+      "end": 4.78,
+      "prob": 0.993
+    },
+    {
+      "word": "game.",
+      "start": 4.78,
+      "end": 5.34,
+      "prob": 0.992
+    },
+    {
+      "word": "It",
+      "start": 5.58,
+      "end": 5.64,
+      "prob": 0.655
+    },
+    {
+      "word": "should",
+      "start": 5.64,
+      "end": 5.78,
+      "prob": 0.98
+    },
+    {
+      "word": "not",
+      "start": 5.78,
+      "end": 5.92,
+      "prob": 0.991
+    },
+    {
+      "word": "be",
+      "start": 5.92,
+      "end": 6.1,
+      "prob": 0.995
+    },
+    {
+      "word": "stupid.",
+      "start": 6.1,
+      "end": 6.28,
+      "prob": 0.91
+    },
+    {
+      "word": "It's",
+      "start": 6.48,
+      "end": 6.58,
+      "prob": 0.408
+    },
+    {
+      "word": "a",
+      "start": 6.58,
+      "end": 6.62,
+      "prob": 0.946
+    },
+    {
+      "word": "step",
+      "start": 6.62,
+      "end": 6.9,
+      "prob": 0.973
+    },
+    {
+      "word": "-jump",
+      "start": 6.9,
+      "end": 7.16,
+      "prob": 0.581
+    },
+    {
+      "word": "game.",
+      "start": 7.16,
+      "end": 7.4,
+      "prob": 0.993
+    },
+    {
+      "word": "The",
+      "start": 7.6,
+      "end": 7.62,
+      "prob": 0.978
+    },
+    {
+      "word": "paradigm",
+      "start": 7.62,
+      "end": 7.84,
+      "prob": 0.858
+    },
+    {
+      "word": "shift",
+      "start": 7.84,
+      "end": 8.18,
+      "prob": 0.95
+    },
+    {
+      "word": "game",
+      "start": 8.18,
+      "end": 8.54,
+      "prob": 0.971
+    },
+    {
+      "word": "has",
+      "start": 8.54,
+      "end": 9.28,
+      "prob": 0.981
+    },
+    {
+      "word": "to",
+      "start": 9.28,
+      "end": 9.48,
+      "prob": 0.998
+    },
+    {
+      "word": "be",
+      "start": 9.48,
+      "end": 9.6,
+      "prob": 0.998
+    },
+    {
+      "word": "stupid",
+      "start": 9.6,
+      "end": 9.8,
+      "prob": 0.994
+    },
+    {
+      "word": "because",
+      "start": 9.8,
+      "end": 10.72,
+      "prob": 0.46
+    },
+    {
+      "word": "if",
+      "start": 10.72,
+      "end": 10.84,
+      "prob": 0.949
+    },
+    {
+      "word": "the",
+      "start": 10.84,
+      "end": 10.98,
+      "prob": 0.99
+    },
+    {
+      "word": "world",
+      "start": 10.98,
+      "end": 11.18,
+      "prob": 0.996
+    },
+    {
+      "word": "already",
+      "start": 11.18,
+      "end": 11.66,
+      "prob": 0.928
+    },
+    {
+      "word": "knows",
+      "start": 11.66,
+      "end": 11.88,
+      "prob": 0.993
+    },
+    {
+      "word": "your",
+      "start": 11.88,
+      "end": 12.08,
+      "prob": 0.962
+    },
+    {
+      "word": "secret,",
+      "start": 12.08,
+      "end": 12.36,
+      "prob": 0.97
+    },
+    {
+      "word": "then",
+      "start": 12.54,
+      "end": 12.62,
+      "prob": 0.967
+    },
+    {
+      "word": "there",
+      "start": 12.62,
+      "end": 12.74,
+      "prob": 0.99
+    },
+    {
+      "word": "is",
+      "start": 12.74,
+      "end": 12.86,
+      "prob": 0.973
+    },
+    {
+      "word": "no",
+      "start": 12.86,
+      "end": 12.98,
+      "prob": 0.997
+    },
+    {
+      "word": "secret",
+      "start": 12.98,
+      "end": 13.22,
+      "prob": 0.982
+    },
+    {
+      "word": "to",
+      "start": 13.22,
+      "end": 13.48,
+      "prob": 0.994
+    },
+    {
+      "word": "start",
+      "start": 13.48,
+      "end": 13.68,
+      "prob": 0.994
+    },
+    {
+      "word": "with.",
+      "start": 13.68,
+      "end": 13.88,
+      "prob": 0.97
+    },
+    {
+      "word": "So",
+      "start": 14.38,
+      "end": 14.78,
+      "prob": 0.482
+    },
+    {
+      "word": "first",
+      "start": 14.78,
+      "end": 14.92,
+      "prob": 0.697
+    },
+    {
+      "word": "of",
+      "start": 14.92,
+      "end": 15.14,
+      "prob": 0.976
+    },
+    {
+      "word": "all,",
+      "start": 15.14,
+      "end": 15.24,
+      "prob": 0.999
+    },
+    {
+      "word": "the",
+      "start": 15.32,
+      "end": 15.38,
+      "prob": 0.986
+    },
+    {
+      "word": "clarity",
+      "start": 15.38,
+      "end": 16.12,
+      "prob": 0.989
+    },
+    {
+      "word": "that",
+      "start": 16.12,
+      "end": 16.34,
+      "prob": 0.978
+    },
+    {
+      "word": "I",
+      "start": 16.34,
+      "end": 16.58,
+      "prob": 0.997
+    },
+    {
+      "word": "think",
+      "start": 16.58,
+      "end": 16.78,
+      "prob": 0.999
+    },
+    {
+      "word": "a",
+      "start": 16.78,
+      "end": 16.88,
+      "prob": 0.101
+    },
+    {
+      "word": "founder",
+      "start": 16.88,
+      "end": 17.04,
+      "prob": 0.908
+    },
+    {
+      "word": "should",
+      "start": 17.04,
+      "end": 17.3,
+      "prob": 0.994
+    },
+    {
+      "word": "have",
+      "start": 17.3,
+      "end": 17.5,
+      "prob": 0.999
+    },
+    {
+      "word": "is",
+      "start": 17.5,
+      "end": 17.64,
+      "prob": 0.963
+    },
+    {
+      "word": "which",
+      "start": 17.64,
+      "end": 17.8,
+      "prob": 0.939
+    },
+    {
+      "word": "game",
+      "start": 17.8,
+      "end": 18.02,
+      "prob": 0.994
+    },
+    {
+      "word": "am",
+      "start": 18.02,
+      "end": 18.16,
+      "prob": 0.729
+    },
+    {
+      "word": "I",
+      "start": 18.16,
+      "end": 18.3,
+      "prob": 0.981
+    },
+    {
+      "word": "playing?",
+      "start": 18.3,
+      "end": 18.48,
+      "prob": 0.597
+    },
+    {
+      "word": "Because",
+      "start": 19.64,
+      "end": 19.94,
+      "prob": 0.816
+    },
+    {
+      "word": "in",
+      "start": 19.94,
+      "end": 20.4,
+      "prob": 0.916
+    },
+    {
+      "word": "one,",
+      "start": 20.4,
+      "end": 20.6,
+      "prob": 0.852
+    },
+    {
+      "word": "the",
+      "start": 20.78,
+      "end": 20.82,
+      "prob": 0.996
+    },
+    {
+      "word": "risk",
+      "start": 20.82,
+      "end": 21.0,
+      "prob": 0.998
+    },
+    {
+      "word": "is",
+      "start": 21.0,
+      "end": 21.2,
+      "prob": 0.997
+    },
+    {
+      "word": "very",
+      "start": 21.2,
+      "end": 21.4,
+      "prob": 0.988
+    },
+    {
+      "word": "high,",
+      "start": 21.4,
+      "end": 21.64,
+      "prob": 0.998
+    },
+    {
+      "word": "the",
+      "start": 21.78,
+      "end": 21.82,
+      "prob": 0.956
+    },
+    {
+      "word": "reward",
+      "start": 21.82,
+      "end": 22.02,
+      "prob": 0.999
+    },
+    {
+      "word": "is",
+      "start": 22.02,
+      "end": 22.2,
+      "prob": 0.997
+    },
+    {
+      "word": "equally",
+      "start": 22.2,
+      "end": 22.46,
+      "prob": 0.993
+    },
+    {
+      "word": "higher.",
+      "start": 22.46,
+      "end": 22.86,
+      "prob": 0.844
+    },
+    {
+      "word": "They",
+      "start": 23.56,
+      "end": 23.6,
+      "prob": 0.424
+    },
+    {
+      "word": "have",
+      "start": 23.6,
+      "end": 23.68,
+      "prob": 0.441
+    },
+    {
+      "word": "even",
+      "start": 23.68,
+      "end": 23.86,
+      "prob": 0.986
+    },
+    {
+      "word": "once",
+      "start": 23.86,
+      "end": 24.02,
+      "prob": 0.213
+    },
+    {
+      "word": "it's",
+      "start": 24.02,
+      "end": 24.58,
+      "prob": 0.619
+    },
+    {
+      "word": "a",
+      "start": 24.58,
+      "end": 24.68,
+      "prob": 0.901
+    },
+    {
+      "word": "headache",
+      "start": 24.68,
+      "end": 24.9,
+      "prob": 0.999
+    },
+    {
+      "word": "and",
+      "start": 24.9,
+      "end": 25.4,
+      "prob": 0.647
+    },
+    {
+      "word": "you're",
+      "start": 25.4,
+      "end": 25.64,
+      "prob": 0.926
+    },
+    {
+      "word": "just",
+      "start": 25.64,
+      "end": 25.74,
+      "prob": 0.977
+    },
+    {
+      "word": "helping",
+      "start": 25.74,
+      "end": 25.98,
+      "prob": 0.995
+    },
+    {
+      "word": "it",
+      "start": 25.98,
+      "end": 26.24,
+      "prob": 0.955
+    },
+    {
+      "word": "happen",
+      "start": 26.24,
+      "end": 26.48,
+      "prob": 0.018
+    },
+    {
+      "word": "online.",
+      "start": 26.48,
+      "end": 26.68,
+      "prob": 0.937
+    },
+    {
+      "word": "But",
+      "start": 27.54,
+      "end": 27.6,
+      "prob": 0.53
+    },
+    {
+      "word": "is",
+      "start": 27.6,
+      "end": 28.72,
+      "prob": 0.896
+    },
+    {
+      "word": "that",
+      "start": 28.72,
+      "end": 29.42,
+      "prob": 0.763
+    },
+    {
+      "word": "a",
+      "start": 29.42,
+      "end": 29.68,
+      "prob": 0.975
+    },
+    {
+      "word": "paradigm",
+      "start": 29.68,
+      "end": 29.94,
+      "prob": 0.941
+    },
+    {
+      "word": "shift?",
+      "start": 29.94,
+      "end": 30.4,
+      "prob": 0.998
+    },
+    {
+      "word": "No.",
+      "start": 30.82,
+      "end": 30.92,
+      "prob": 0.952
+    },
+    {
+      "word": "Will",
+      "start": 31.38,
+      "end": 31.38,
+      "prob": 0.977
+    },
+    {
+      "word": "it",
+      "start": 31.38,
+      "end": 31.76,
+      "prob": 0.879
+    },
+    {
+      "word": "be",
+      "start": 31.76,
+      "end": 31.9,
+      "prob": 0.996
+    },
+    {
+      "word": "called",
+      "start": 31.9,
+      "end": 32.08,
+      "prob": 0.956
+    },
+    {
+      "word": "stupid?",
+      "start": 32.08,
+      "end": 32.4,
+      "prob": 0.714
+    },
+    {
+      "word": "No.",
+      "start": 32.82,
+      "end": 32.84,
+      "prob": 0.983
+    },
+    {
+      "word": "Is",
+      "start": 33.28,
+      "end": 33.54,
+      "prob": 0.764
+    },
+    {
+      "word": "it",
+      "start": 33.54,
+      "end": 33.66,
+      "prob": 0.991
+    },
+    {
+      "word": "a",
+      "start": 33.66,
+      "end": 33.74,
+      "prob": 0.931
+    },
+    {
+      "word": "bad",
+      "start": 33.74,
+      "end": 33.88,
+      "prob": 0.997
+    },
+    {
+      "word": "business?",
+      "start": 33.88,
+      "end": 34.14,
+      "prob": 0.997
+    },
+    {
+      "word": "No,",
+      "start": 34.38,
+      "end": 34.46,
+      "prob": 0.964
+    },
+    {
+      "word": "it's",
+      "start": 34.5,
+      "end": 34.56,
+      "prob": 0.969
+    },
+    {
+      "word": "a",
+      "start": 34.56,
+      "end": 34.68,
+      "prob": 0.991
+    },
+    {
+      "word": "great",
+      "start": 34.68,
+      "end": 34.82,
+      "prob": 0.988
+    },
+    {
+      "word": "business.",
+      "start": 34.82,
+      "end": 35.12,
+      "prob": 0.997
+    },
+    {
+      "word": "It's",
+      "start": 35.38,
+      "end": 35.44,
+      "prob": 0.892
+    },
+    {
+      "word": "here",
+      "start": 35.44,
+      "end": 35.96,
+      "prob": 0.624
+    },
+    {
+      "word": "in",
+      "start": 35.96,
+      "end": 36.18,
+      "prob": 0.904
+    },
+    {
+      "word": "our",
+      "start": 36.18,
+      "end": 36.3,
+      "prob": 0.885
+    },
+    {
+      "word": "demand",
+      "start": 36.3,
+      "end": 36.58,
+      "prob": 0.983
+    },
+    {
+      "word": "and",
+      "start": 36.58,
+      "end": 37.22,
+      "prob": 0.661
+    },
+    {
+      "word": "you're",
+      "start": 37.22,
+      "end": 37.36,
+      "prob": 0.966
+    },
+    {
+      "word": "serving",
+      "start": 37.36,
+      "end": 37.54,
+      "prob": 0.99
+    },
+    {
+      "word": "it.",
+      "start": 37.54,
+      "end": 37.78,
+      "prob": 0.993
+    },
+    {
+      "word": "Will",
+      "start": 38.22,
+      "end": 38.28,
+      "prob": 0.914
+    },
+    {
+      "word": "it",
+      "start": 38.28,
+      "end": 38.4,
+      "prob": 0.973
+    },
+    {
+      "word": "be",
+      "start": 38.4,
+      "end": 38.56,
+      "prob": 0.998
+    },
+    {
+      "word": "one",
+      "start": 38.56,
+      "end": 39.8,
+      "prob": 0.18
+    },
+    {
+      "word": "is",
+      "start": 39.8,
+      "end": 40.02,
+      "prob": 0.117
+    },
+    {
+      "word": "2000?",
+      "start": 40.02,
+      "end": 40.38,
+      "prob": 0.726
+    },
+    {
+      "word": "No.",
+      "start": 40.76,
+      "end": 40.84,
+      "prob": 0.787
+    },
+    {
+      "word": "Probably",
+      "start": 41.16,
+      "end": 41.36,
+      "prob": 0.926
+    },
+    {
+      "word": "no.",
+      "start": 41.36,
+      "end": 41.72,
+      "prob": 0.443
+    },
+    {
+      "word": "Right?",
+      "start": 42.06,
+      "end": 42.18,
+      "prob": 0.533
+    }
+  ]
+}
