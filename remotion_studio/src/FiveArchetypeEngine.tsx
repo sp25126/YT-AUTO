@@ -121,19 +121,14 @@ export const FiveArchetypeEngine: React.FC<{
   }
 
   // ============================================================================
-  // STYLE 5B: MARK SOY DARK GRID + COLORED GEOMETRIC CORNER BLOCKS + RED PILL
+  // STYLE 5B: MARK SOY TRANSPARENT CORNER BLOCKS (OVER LIVE REEL)
   // ============================================================================
   if (archetype === 'marksoy_corner_blocks') {
     const s1 = spring({ frame, fps, config: { damping: 13, stiffness: 190 } });
     return (
       <AbsoluteFill
         style={{
-          backgroundColor: '#040814',
-          backgroundImage: `
-            linear-gradient(rgba(255,255,255,0.06) 1.5px, transparent 1.5px),
-            linear-gradient(90deg, rgba(255,255,255,0.06) 1.5px, transparent 1.5px)
-          `,
-          backgroundSize: '80px 80px',
+          backgroundColor: 'transparent',
           fontFamily: 'Montserrat, sans-serif',
           overflow: 'hidden',
           display: 'flex',
@@ -145,13 +140,14 @@ export const FiveArchetypeEngine: React.FC<{
         <div
           style={{
             position: 'absolute',
-            top: -60,
-            left: 40,
-            width: 340,
-            height: 280,
+            top: -50,
+            left: 30,
+            width: 320,
+            height: 260,
             backgroundColor: '#F97316',
             borderRadius: 36,
-            transform: `translateY(${(1 - s1) * -200}px)`,
+            boxShadow: '0 20px 40px rgba(0,0,0,0.5)',
+            transform: `translateY(${(1 - s1) * -220}px)`,
           }}
         />
 
@@ -159,13 +155,14 @@ export const FiveArchetypeEngine: React.FC<{
         <div
           style={{
             position: 'absolute',
-            top: -40,
-            right: -50,
-            width: 380,
-            height: 440,
+            top: -30,
+            right: -40,
+            width: 360,
+            height: 400,
             backgroundColor: '#3730A3',
             borderRadius: 42,
-            transform: `translateX(${(1 - s1) * 200}px)`,
+            boxShadow: '0 20px 40px rgba(0,0,0,0.5)',
+            transform: `translateX(${(1 - s1) * 220}px)`,
           }}
         />
 
@@ -173,26 +170,31 @@ export const FiveArchetypeEngine: React.FC<{
         <div
           style={{
             position: 'absolute',
-            bottom: 220,
-            left: -40,
-            width: 480,
-            height: 520,
+            bottom: 240,
+            left: -30,
+            width: 440,
+            height: 480,
             backgroundColor: '#DC2626',
             borderRadius: 46,
-            transform: `translateY(${(1 - s1) * 250}px)`,
+            boxShadow: '0 20px 40px rgba(0,0,0,0.5)',
+            transform: `translateY(${(1 - s1) * 260}px)`,
           }}
         />
 
         {/* Center Kinetic Typography with Red Highlight Pill */}
         <div
           style={{
+            position: 'absolute',
+            top: 860,
             zIndex: 10,
             padding: '0 80px',
-            fontSize: 68,
-            fontWeight: 800,
+            fontSize: 66,
+            fontWeight: 900,
             color: '#FFFFFF',
-            lineHeight: 1.22,
+            lineHeight: 1.25,
             letterSpacing: -2,
+            textAlign: 'center',
+            textShadow: '0 4px 20px rgba(0,0,0,0.9)',
             transform: `scale(${0.85 + 0.15 * s1})`,
           }}
         >
@@ -200,9 +202,10 @@ export const FiveArchetypeEngine: React.FC<{
           <span
             style={{
               backgroundColor: '#EF4444',
-              padding: '4px 20px',
+              padding: '4px 22px',
               borderRadius: 14,
               display: 'inline-block',
+              boxShadow: '0 10px 25px rgba(239, 68, 68, 0.6)',
             }}
           >
             too early
@@ -224,50 +227,71 @@ export const FiveArchetypeEngine: React.FC<{
   }
 
   // ============================================================================
-  // STYLE 5C: MARK SOY WARM CREAM EDITORIAL TYPOGRAPHY SNAP (#F5F2DC)
+  // STYLE 5C: MARK SOY FLOATING WARM CREAM BANNER CARD (#F5F2DC)
   // ============================================================================
   if (archetype === 'marksoy_cream_serif') {
-    const word1 = spring({ frame, fps, config: { damping: 14, stiffness: 220 } });
-    const word2 = spring({ frame: Math.max(0, frame - 14), fps, config: { damping: 13, stiffness: 200 } });
+    const cardSpring = spring({ frame, fps, config: { damping: 14, stiffness: 210 } });
     return (
       <AbsoluteFill
         style={{
-          backgroundColor: '#F5F2DC',
-          padding: '0 95px',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          color: '#111111',
+          backgroundColor: 'transparent',
           fontFamily: 'Montserrat, sans-serif',
+          overflow: 'hidden',
         }}
       >
+        {/* Floating Cream Card Banner at Bottom-Third, preserving Speaker on Top! */}
         <div
           style={{
-            fontSize: 82,
-            fontWeight: 900,
-            letterSpacing: -3,
-            lineHeight: 1.05,
-            opacity: word1,
-            transform: `translateY(${(1 - word1) * 40}px)`,
+            position: 'absolute',
+            bottom: 240,
+            left: '50%',
+            transform: `translateX(-50%) translateY(${(1 - cardSpring) * 160}px) rotate(-1deg)`,
+            width: 960,
+            backgroundColor: '#F5F2DC',
+            borderRadius: 36,
+            padding: '50px 65px',
+            boxShadow: '0 35px 80px rgba(0,0,0,0.7), 0 0 0 3px rgba(255,255,255,0.4)',
+            color: '#111111',
           }}
         >
-          {headlineTop}
-        </div>
-        <div
-          style={{
-            fontSize: 124,
-            fontFamily: 'Georgia, Times New Roman, serif',
-            fontStyle: 'italic',
-            fontWeight: 400,
-            letterSpacing: -4,
-            lineHeight: 0.95,
-            marginTop: 14,
-            opacity: word2,
-            transform: `translateY(${(1 - word2) * 50}px)`,
-            color: '#991B1B',
-          }}
-        >
-          {headlineBottom}
+          {/* Top category label */}
+          <div
+            style={{
+              fontSize: 26,
+              fontWeight: 800,
+              letterSpacing: 3,
+              color: '#854D0E',
+              marginBottom: 16,
+              textTransform: 'uppercase',
+            }}
+          >
+            // TACTICAL RULEBOOK
+          </div>
+
+          <div
+            style={{
+              fontSize: 68,
+              fontWeight: 900,
+              letterSpacing: -2,
+              lineHeight: 1.05,
+            }}
+          >
+            {headlineTop}
+          </div>
+          <div
+            style={{
+              fontSize: 104,
+              fontFamily: 'Georgia, Times New Roman, serif',
+              fontStyle: 'italic',
+              fontWeight: 400,
+              letterSpacing: -3,
+              lineHeight: 0.95,
+              marginTop: 10,
+              color: '#B91C1C',
+            }}
+          >
+            {headlineBottom}
+          </div>
         </div>
       </AbsoluteFill>
     );

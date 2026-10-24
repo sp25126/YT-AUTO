@@ -21,10 +21,10 @@ COMPOSITIONS = [
     ("Style5-CreamSerif2", "temp/style5_cream2.mp4"),
 ]
 
-def render_all():
+def render_all(force: bool = False):
     os.makedirs("temp", exist_ok=True)
     for comp_id, out_file in COMPOSITIONS:
-        if os.path.exists(out_file) and os.path.getsize(out_file) > 50000:
+        if not force and os.path.exists(out_file) and os.path.getsize(out_file) > 50000:
             print(f"[OK] Already rendered: {out_file}")
             continue
 
@@ -40,4 +40,6 @@ def render_all():
         print(f"[OK] Rendered {comp_id}: {out_file} ({os.path.getsize(out_file)} bytes)")
 
 if __name__ == "__main__":
-    render_all()
+    import sys
+    is_force = "--force" in sys.argv
+    render_all(force=is_force)

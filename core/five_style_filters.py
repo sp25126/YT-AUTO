@@ -225,24 +225,31 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         clip_words = [w for w in words if start_t <= w["start"] <= end_t - 0.20]
 
     lines = []
+    last_dialogue_end = 0.0
     for i in range(0, len(clip_words), 3):
         chunk = clip_words[i:i + 3]
         if is_rel:
-            group_end = min(duration, chunk[-1]["end"])
+            next_start = clip_words[i + 3]["start"] if i + 3 < len(clip_words) else duration
+            group_end = min(duration, chunk[-1]["end"], next_start)
         else:
-            group_end = min(duration, chunk[-1]["end"] - start_t)
+            next_start = clip_words[i + 3]["start"] - start_t if i + 3 < len(clip_words) else duration
+            group_end = min(duration, chunk[-1]["end"] - start_t, next_start)
 
         accumulated = []
         for idx, w in enumerate(chunk):
             if is_rel:
-                w_start = max(0.0, w["start"])
-                w_next = min(duration, chunk[idx + 1]["start"]) if idx + 1 < len(chunk) else group_end
+                raw_s = max(0.0, w["start"])
+                raw_next = min(duration, chunk[idx + 1]["start"]) if idx + 1 < len(chunk) else group_end
             else:
-                w_start = max(0.0, w["start"] - start_t)
-                w_next = min(duration, chunk[idx + 1]["start"] - start_t) if idx + 1 < len(chunk) else group_end
+                raw_s = max(0.0, w["start"] - start_t)
+                raw_next = min(duration, chunk[idx + 1]["start"] - start_t) if idx + 1 < len(chunk) else group_end
 
+            w_start = max(raw_s, last_dialogue_end)
+            w_next = max(raw_next, w_start + 0.18)
+            w_next = min(w_next, duration)
             if w_next <= w_start:
-                w_next = w_start + 0.25
+                w_next = w_start + 0.18
+            last_dialogue_end = w_next
 
             color = r"{\c&H15F755A8&}" if idx == len(chunk) - 1 else r"{\c&H15FFFFFF&}"
             accumulated.append(f"{color}{w['word'].upper()}")
