@@ -43,3 +43,10 @@ Thumbs.db
 *.swo
 .vscode/
 .idea/
+
+# Earshot cache & large temp files
+core/earshot/.cache/
+remotion_studio/temp/
+remotion_studio/public/assets/speaker_base.mp4
+assets/sfx/openverse_bgm.wav
+temp/qa_frames/beat_*.jpg

@@ -1,8 +1,10 @@
 import React from 'react';
-import { Composition } from 'remotion';
+import { Composition, staticFile } from 'remotion';
 import { CapCutCollageScenes } from './CapCutCollageScenes';
 import { FiveStyleDirector, EditStyle, BeatId } from './FiveStyleDirector';
 import { FiveArchetypeEngine } from './FiveArchetypeEngine';
+import { EditorialStudioMaster } from './EditorialStudioMaster';
+import wordsData from '../public/assets/words.json';
 
 export const Root: React.FC = () => {
   const styles: { idPrefix: string; styleVariant: EditStyle }[] = [
@@ -237,6 +239,25 @@ export const Root: React.FC = () => {
           archetype: 'marksoy_cream_serif' as const,
           headlineTop: 'OUTSIDE LOOKS ROSY',
           headlineBottom: 'devil in the details',
+        }}
+      />
+
+      {/* Nick Automates / Prompt-Motion Editorial Studio Master */}
+      <Composition
+        id="EditorialStudioMaster"
+        component={EditorialStudioMaster}
+        durationInFrames={1002}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          speakerVideoUrl: staticFile('assets/speaker_base.mp4'),
+          brollEarlyUrl: staticFile('assets/broll_beat2_early.mp4'),
+          brollLateUrl: staticFile('assets/broll_beat2_late.mp4'),
+          brollMentorUrl: staticFile('assets/broll_beat3_mentors.mp4'),
+          brollRosyUrl: staticFile('assets/broll_beat4_rosy.mp4'),
+          brollDetailUrl: staticFile('assets/broll_beat4_devil.mp4'),
+          words: wordsData,
         }}
       />
     </>
