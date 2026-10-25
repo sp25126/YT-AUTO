@@ -11,9 +11,15 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@remotion/cli": "^4.0.537",
+    "@remotion/cli": "^4.0.538",
+    "@remotion/effects": "^4.0.538",
+    "@remotion/motion-blur": "^4.0.538",
+    "@remotion/noise": "^4.0.538",
+    "@remotion/paths": "^4.0.538",
+    "@remotion/sfx": "^4.0.538",
+    "@remotion/transitions": "^4.0.538",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
-    "remotion": "^4.0.537"
+    "remotion": "^4.0.538"
   }
 }

@@ -4,6 +4,7 @@ import { CapCutCollageScenes } from './CapCutCollageScenes';
 import { FiveStyleDirector, EditStyle, BeatId } from './FiveStyleDirector';
 import { FiveArchetypeEngine } from './FiveArchetypeEngine';
 import { EditorialStudioMaster } from './EditorialStudioMaster';
+import { ProMotionDirector } from './ProMotionDirector';
 import wordsData from '../public/assets/words.json';
 
 export const Root: React.FC = () => {
@@ -246,6 +247,25 @@ export const Root: React.FC = () => {
       <Composition
         id="EditorialStudioMaster"
         component={EditorialStudioMaster}
+        durationInFrames={1002}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          speakerVideoUrl: staticFile('assets/speaker_base.mp4'),
+          brollEarlyUrl: staticFile('assets/broll_beat2_early.mp4'),
+          brollLateUrl: staticFile('assets/broll_beat2_late.mp4'),
+          brollMentorUrl: staticFile('assets/broll_beat3_mentors.mp4'),
+          brollRosyUrl: staticFile('assets/broll_beat4_rosy.mp4'),
+          brollDetailUrl: staticFile('assets/broll_beat4_devil.mp4'),
+          words: wordsData,
+        }}
+      />
+
+      {/* Senior Motion Designer Continuous Morphing Master */}
+      <Composition
+        id="ProMotionDirector"
+        component={ProMotionDirector}
         durationInFrames={1002}
         fps={30}
         width={1080}
