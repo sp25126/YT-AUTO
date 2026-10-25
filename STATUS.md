@@ -97,3 +97,22 @@ All 5 viral short variations are re-rendered with **Pro Director Cuts** (dynamic
    python build_5_distinct_styles.py
    ```
 3. **Distribute Deliverables:** Collect finished shorts from `outputs/5_viral_styles/` for automated publishing to YouTube Shorts, Instagram Reels, and TikTok.
+
+---
+
+## 6. Senior Director Workflow & Unified Master 100M+ Director Cut
+
+The autonomous studio has introduced the **Senior Video Director & Motion Graphics Architect Workflow** (`CLAUDE.md`), enforcing strict motion-design craft rules and an automated Frame-by-Frame QA Inspection Loop (`core/frame_inspector.py`):
+
+1. **Official Remotion Skill Installed:** Installed `remotion-motion-graphics` from `haidrrrry/claude-remotion-skill` into `.claude/skills/` and `.agents/skills/`.
+2. **Second-by-Second Beat Sheet:** [`BEAT_SHEET.md`](file:///c:/Users/saumy/OneDrive/Desktop/YT/BEAT_SHEET.md) maps the 33.4s clip into 10 directed micro-beats across AE, AP, AM, and CapCut primitives.
+3. **Active Asset & Audio Fit Auditor:** [`core/asset_fit_auditor.py`](file:///c:/Users/saumy/OneDrive/Desktop/YT/core/asset_fit_auditor.py) inspects acoustic properties (RMS energy, dominant frequency bands, silence removal) to prevent inappropriate audio reuse.
+4. **Automated Frame Inspection:** [`core/frame_inspector.py`](file:///c:/Users/saumy/OneDrive/Desktop/YT/core/frame_inspector.py) generates `QA_CONTACT_SHEET.jpg` across key timestamps for ruthless visual audit before shipping.
+5. **Unified Master 100M+ Cut:** [`outputs/master_100m_director_cut.mp4`](file:///c:/Users/saumy/OneDrive/Desktop/YT/outputs/master_100m_director_cut.mp4) (24.0 MB, 30.0 FPS, -14.1 dB LUFS) combines the top retention mechanics from all 5 styles:
+   - `0:00.0 - 0:02.2`: CapCut Roto speed-ramp pull-back (`1.22x -> 1.0x`) + AP J-Cut 38Hz sub-drop + floating Apple glass pill.
+   - `0:02.2 - 0:06.2`: Vox Swiss Newsprint grid + live odometer roll (`0% -> 90%`) + crash chart.
+   - `0:06.2 - 0:10.5`: Camera push-in + sliding corner blocks + kinetic binary callouts (`TOO EARLY` / `TOO LATE`).
+   - `0:10.5 - 0:15.4`: 3-panel whip-pan across Hourglass, Megacity Giants, and Goldilocks Bell Curve.
+   - `0:15.4 - 0:21.2`: Premiere BGM mood pivot + vinyl tape-stop + torn-newspaper shoulder collar + floating cream typography banner.
+   - `0:21.2 - 0:26.0`: Vox Blueprint architectural grid with moving mentor video.
+   - `0:26.0 - 0:33.4`: Golden luxury yacht + diagonal paper-tear split into rapid 4-frame camera-shutter montage.

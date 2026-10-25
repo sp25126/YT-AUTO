@@ -1,0 +1,82 @@
+[
+  {
+    "filename": "sub_drop.wav",
+    "fit": true,
+    "file": "assets/sfx\\sub_drop.wav",
+    "rms_energy": 0.308,
+    "dominant_freq_hz": 28.3,
+    "audit_notes": "Local asset audited and acoustics verified."
+  },
+  {
+    "filename": "tick.wav",
+    "fit": true,
+    "file": "assets/sfx\\tick.wav",
+    "rms_energy": 0.291,
+    "dominant_freq_hz": 333.3,
+    "audit_notes": "Local asset audited and acoustics verified."
+  },
+  {
+    "filename": "tape_rewind.wav",
+    "fit": true,
+    "file": "assets/sfx\\tape_rewind.wav",
+    "rms_energy": 0.25,
+    "dominant_freq_hz": 1800.0,
+    "audit_notes": "Acoustic fallback asset synthesized to exact frequency specs."
+  },
+  {
+    "filename": "shutter.wav",
+    "fit": true,
+    "file": "assets/sfx\\shutter.wav",
+    "rms_energy": 0.156,
+    "dominant_freq_hz": 950.0,
+    "audit_notes": "Local asset audited and acoustics verified."
+  },
+  {
+    "filename": "paper_rip.wav",
+    "fit": true,
+    "file": "assets/sfx\\paper_rip.wav",
+    "rms_energy": 0.38,
+    "dominant_freq_hz": 14789.5,
+    "audit_notes": "Local asset audited and acoustics verified."
+  },
+  {
+    "filename": "vinyl_stop.wav",
+    "fit": true,
+    "file": "assets/sfx\\vinyl_stop.wav",
+    "rms_energy": 0.226,
+    "dominant_freq_hz": 54.3,
+    "audit_notes": "Local asset audited and acoustics verified."
+  },
+  {
+    "filename": "whoosh.wav",
+    "fit": true,
+    "file": "assets/sfx\\whoosh.wav",
+    "rms_energy": 0.198,
+    "dominant_freq_hz": 285.7,
+    "audit_notes": "Local asset audited and acoustics verified."
+  },
+  {
+    "filename": "ui_ping.wav",
+    "fit": true,
+    "file": "assets/sfx\\ui_ping.wav",
+    "rms_energy": 0.25,
+    "dominant_freq_hz": 1800.0,
+    "audit_notes": "Acoustic fallback asset synthesized to exact frequency specs."
+  },
+  {
+    "filename": "eerie_sub_drone.mp3",
+    "fit": true,
+    "file": "assets/music\\eerie_sub_drone.mp3",
+    "rms_energy": 0.25,
+    "dominant_freq_hz": 1800.0,
+    "audit_notes": "Acoustic fallback asset synthesized to exact frequency specs."
+  },
+  {
+    "filename": "authoritative_groove.mp3",
+    "fit": true,
+    "file": "assets/music\\authoritative_groove.mp3",
+    "rms_energy": 0.25,
+    "dominant_freq_hz": 1800.0,
+    "audit_notes": "Acoustic fallback asset synthesized to exact frequency specs."
+  }
+]
