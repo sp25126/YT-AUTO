@@ -6,7 +6,9 @@ import { FiveArchetypeEngine } from './FiveArchetypeEngine';
 import { EditorialStudioMaster } from './EditorialStudioMaster';
 import { ProMotionDirector } from './ProMotionDirector';
 import { ProDepthEditor } from './ProDepthEditor';
+import { MasterpieceShort } from './MasterpieceShort';
 import wordsData from '../public/assets/words.json';
+import clausePhrasesData from '../public/assets/clause_phrases.json';
 
 export const Root: React.FC = () => {
   const styles: { idPrefix: string; styleVariant: EditStyle }[] = [
@@ -304,6 +306,31 @@ export const Root: React.FC = () => {
           brollDetailVideo: staticFile('assets/broll_candidates/detail_cand_3.mp4'),
           brollDetailCutout: staticFile('assets/broll_candidates/detail_cand_3_fg_cutout.png'),
           words: wordsData,
+        }}
+      />
+
+      {/* Senior Motion Designer Masterpiece Short */}
+      <Composition
+        id="MasterpieceShort"
+        component={MasterpieceShort}
+        durationInFrames={1002}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          speakerVideoUrl: staticFile('assets/speaker_base.mp4'),
+          rotoFolderUrl: 'assets/roto_hook',
+          earlyBgImg: staticFile('assets/plates/early_bg.jpg'),
+          earlyFgCutout: staticFile('assets/plates/early_fg_cutout.png'),
+          lateBgImg: staticFile('assets/plates/late_bg.jpg'),
+          lateFgCutout: staticFile('assets/plates/late_fg_cutout.png'),
+          mentorBgImg: staticFile('assets/plates/mentor_bg.jpg'),
+          mentorFgCutout: staticFile('assets/plates/mentor_fg_cutout.png'),
+          rosyBgImg: staticFile('assets/plates/rosy_bg.jpg'),
+          rosyFgCutout: staticFile('assets/plates/rosy_fg_cutout.png'),
+          detailBgImg: staticFile('assets/plates/detail_bg.jpg'),
+          detailFgCutout: staticFile('assets/plates/detail_fg_cutout.png'),
+          phrases: clausePhrasesData,
         }}
       />
     </>

@@ -1,0 +1,810 @@
+[
+  {
+    "start": 0.0,
+    "end": 0.64,
+    "words": [
+      {
+        "word": "But",
+        "start": 0.0,
+        "end": 0.24
+      },
+      {
+        "word": "what",
+        "start": 0.24,
+        "end": 0.4
+      },
+      {
+        "word": "about",
+        "start": 0.4,
+        "end": 0.64
+      }
+    ]
+  },
+  {
+    "start": 0.64,
+    "end": 0.98,
+    "words": [
+      {
+        "word": "the",
+        "start": 0.64,
+        "end": 0.76
+      },
+      {
+        "word": "timing?",
+        "start": 0.76,
+        "end": 0.98
+      }
+    ]
+  },
+  {
+    "start": 1.42,
+    "end": 1.64,
+    "words": [
+      {
+        "word": "A",
+        "start": 1.42,
+        "end": 1.42
+      },
+      {
+        "word": "lot",
+        "start": 1.42,
+        "end": 1.52
+      },
+      {
+        "word": "of",
+        "start": 1.52,
+        "end": 1.64
+      }
+    ]
+  },
+  {
+    "start": 1.64,
+    "end": 1.84,
+    "words": [
+      {
+        "word": "people,",
+        "start": 1.64,
+        "end": 1.84
+      }
+    ]
+  },
+  {
+    "start": 2.06,
+    "end": 2.54,
+    "words": [
+      {
+        "word": "a",
+        "start": 2.06,
+        "end": 2.2
+      },
+      {
+        "word": "lot",
+        "start": 2.2,
+        "end": 2.42
+      },
+      {
+        "word": "of",
+        "start": 2.42,
+        "end": 2.54
+      }
+    ]
+  },
+  {
+    "start": 2.54,
+    "end": 3.32,
+    "words": [
+      {
+        "word": "startups",
+        "start": 2.54,
+        "end": 2.82
+      },
+      {
+        "word": "die,",
+        "start": 2.82,
+        "end": 3.32
+      }
+    ]
+  },
+  {
+    "start": 3.72,
+    "end": 4.24,
+    "words": [
+      {
+        "word": "not",
+        "start": 3.72,
+        "end": 3.72
+      },
+      {
+        "word": "because",
+        "start": 3.72,
+        "end": 4.02
+      },
+      {
+        "word": "of",
+        "start": 4.02,
+        "end": 4.24
+      }
+    ]
+  },
+  {
+    "start": 4.24,
+    "end": 4.5,
+    "words": [
+      {
+        "word": "trend,",
+        "start": 4.24,
+        "end": 4.5
+      }
+    ]
+  },
+  {
+    "start": 5.06,
+    "end": 5.8,
+    "words": [
+      {
+        "word": "they",
+        "start": 5.06,
+        "end": 5.26
+      },
+      {
+        "word": "die",
+        "start": 5.26,
+        "end": 5.48
+      },
+      {
+        "word": "because",
+        "start": 5.48,
+        "end": 5.8
+      }
+    ]
+  },
+  {
+    "start": 5.8,
+    "end": 6.4,
+    "words": [
+      {
+        "word": "of",
+        "start": 5.8,
+        "end": 5.96
+      },
+      {
+        "word": "wrong",
+        "start": 5.96,
+        "end": 6.1
+      },
+      {
+        "word": "timing.",
+        "start": 6.1,
+        "end": 6.4
+      }
+    ]
+  },
+  {
+    "start": 6.88,
+    "end": 6.9,
+    "words": [
+      {
+        "word": "Yeah,",
+        "start": 6.88,
+        "end": 6.9
+      }
+    ]
+  },
+  {
+    "start": 6.98,
+    "end": 7.54,
+    "words": [
+      {
+        "word": "either",
+        "start": 6.98,
+        "end": 7.16
+      },
+      {
+        "word": "they're",
+        "start": 7.16,
+        "end": 7.38
+      },
+      {
+        "word": "too",
+        "start": 7.38,
+        "end": 7.54
+      }
+    ]
+  },
+  {
+    "start": 7.54,
+    "end": 8.08,
+    "words": [
+      {
+        "word": "early",
+        "start": 7.54,
+        "end": 7.8
+      },
+      {
+        "word": "or",
+        "start": 7.8,
+        "end": 7.94
+      },
+      {
+        "word": "too",
+        "start": 7.94,
+        "end": 8.08
+      }
+    ]
+  },
+  {
+    "start": 8.08,
+    "end": 8.26,
+    "words": [
+      {
+        "word": "late.",
+        "start": 8.08,
+        "end": 8.26
+      }
+    ]
+  },
+  {
+    "start": 8.74,
+    "end": 9.5,
+    "words": [
+      {
+        "word": "So",
+        "start": 8.74,
+        "end": 8.74
+      },
+      {
+        "word": "how",
+        "start": 8.74,
+        "end": 9.36
+      },
+      {
+        "word": "do",
+        "start": 9.36,
+        "end": 9.5
+      }
+    ]
+  },
+  {
+    "start": 9.5,
+    "end": 10.02,
+    "words": [
+      {
+        "word": "you",
+        "start": 9.5,
+        "end": 9.58
+      },
+      {
+        "word": "pick",
+        "start": 9.58,
+        "end": 9.82
+      },
+      {
+        "word": "up",
+        "start": 9.82,
+        "end": 10.02
+      }
+    ]
+  },
+  {
+    "start": 10.02,
+    "end": 10.94,
+    "words": [
+      {
+        "word": "the",
+        "start": 10.02,
+        "end": 10.36
+      },
+      {
+        "word": "right",
+        "start": 10.36,
+        "end": 10.6
+      },
+      {
+        "word": "time",
+        "start": 10.6,
+        "end": 10.94
+      }
+    ]
+  },
+  {
+    "start": 10.94,
+    "end": 12.48,
+    "words": [
+      {
+        "word": "to",
+        "start": 10.94,
+        "end": 11.16
+      },
+      {
+        "word": "enter",
+        "start": 11.16,
+        "end": 11.54
+      },
+      {
+        "word": "a",
+        "start": 11.54,
+        "end": 12.48
+      }
+    ]
+  },
+  {
+    "start": 12.48,
+    "end": 13.72,
+    "words": [
+      {
+        "word": "space",
+        "start": 12.48,
+        "end": 12.84
+      },
+      {
+        "word": "to",
+        "start": 12.84,
+        "end": 13.4
+      },
+      {
+        "word": "learn",
+        "start": 13.4,
+        "end": 13.72
+      }
+    ]
+  },
+  {
+    "start": 13.72,
+    "end": 14.74,
+    "words": [
+      {
+        "word": "and",
+        "start": 13.72,
+        "end": 14.3
+      },
+      {
+        "word": "then",
+        "start": 14.3,
+        "end": 14.42
+      },
+      {
+        "word": "eventually",
+        "start": 14.42,
+        "end": 14.74
+      }
+    ]
+  },
+  {
+    "start": 14.74,
+    "end": 15.36,
+    "words": [
+      {
+        "word": "start",
+        "start": 14.74,
+        "end": 15.0
+      },
+      {
+        "word": "a",
+        "start": 15.0,
+        "end": 15.14
+      },
+      {
+        "word": "business?",
+        "start": 15.14,
+        "end": 15.36
+      }
+    ]
+  },
+  {
+    "start": 15.86,
+    "end": 16.34,
+    "words": [
+      {
+        "word": "Number",
+        "start": 15.86,
+        "end": 16.02
+      },
+      {
+        "word": "one,",
+        "start": 16.02,
+        "end": 16.34
+      }
+    ]
+  },
+  {
+    "start": 16.56,
+    "end": 17.48,
+    "words": [
+      {
+        "word": "you",
+        "start": 16.56,
+        "end": 17.14
+      },
+      {
+        "word": "can't",
+        "start": 17.14,
+        "end": 17.38
+      },
+      {
+        "word": "just",
+        "start": 17.38,
+        "end": 17.48
+      }
+    ]
+  },
+  {
+    "start": 17.48,
+    "end": 17.98,
+    "words": [
+      {
+        "word": "be",
+        "start": 17.48,
+        "end": 17.64
+      },
+      {
+        "word": "on",
+        "start": 17.64,
+        "end": 17.74
+      },
+      {
+        "word": "internet,",
+        "start": 17.74,
+        "end": 17.98
+      }
+    ]
+  },
+  {
+    "start": 18.32,
+    "end": 18.34,
+    "words": [
+      {
+        "word": "right?",
+        "start": 18.32,
+        "end": 18.34
+      }
+    ]
+  },
+  {
+    "start": 18.48,
+    "end": 18.98,
+    "words": [
+      {
+        "word": "You've",
+        "start": 18.48,
+        "end": 18.56
+      },
+      {
+        "word": "got",
+        "start": 18.56,
+        "end": 18.72
+      },
+      {
+        "word": "to",
+        "start": 18.72,
+        "end": 18.98
+      }
+    ]
+  },
+  {
+    "start": 18.98,
+    "end": 19.9,
+    "words": [
+      {
+        "word": "be",
+        "start": 18.98,
+        "end": 19.16
+      },
+      {
+        "word": "able",
+        "start": 19.16,
+        "end": 19.7
+      },
+      {
+        "word": "to",
+        "start": 19.7,
+        "end": 19.9
+      }
+    ]
+  },
+  {
+    "start": 19.9,
+    "end": 21.04,
+    "words": [
+      {
+        "word": "create",
+        "start": 19.9,
+        "end": 20.22
+      },
+      {
+        "word": "a",
+        "start": 20.22,
+        "end": 20.44
+      },
+      {
+        "word": "advisor",
+        "start": 20.44,
+        "end": 21.04
+      }
+    ]
+  },
+  {
+    "start": 21.04,
+    "end": 21.72,
+    "words": [
+      {
+        "word": "network.",
+        "start": 21.04,
+        "end": 21.72
+      }
+    ]
+  },
+  {
+    "start": 22.4,
+    "end": 23.28,
+    "words": [
+      {
+        "word": "The",
+        "start": 22.4,
+        "end": 22.84
+      },
+      {
+        "word": "first",
+        "start": 22.84,
+        "end": 23.06
+      },
+      {
+        "word": "thing",
+        "start": 23.06,
+        "end": 23.28
+      }
+    ]
+  },
+  {
+    "start": 23.28,
+    "end": 23.72,
+    "words": [
+      {
+        "word": "that",
+        "start": 23.28,
+        "end": 23.44
+      },
+      {
+        "word": "you",
+        "start": 23.44,
+        "end": 23.62
+      },
+      {
+        "word": "want",
+        "start": 23.62,
+        "end": 23.72
+      }
+    ]
+  },
+  {
+    "start": 23.72,
+    "end": 24.1,
+    "words": [
+      {
+        "word": "to",
+        "start": 23.72,
+        "end": 23.84
+      },
+      {
+        "word": "do",
+        "start": 23.84,
+        "end": 23.96
+      },
+      {
+        "word": "is",
+        "start": 23.96,
+        "end": 24.1
+      }
+    ]
+  },
+  {
+    "start": 24.1,
+    "end": 25.4,
+    "words": [
+      {
+        "word": "talk",
+        "start": 24.1,
+        "end": 24.84
+      },
+      {
+        "word": "to",
+        "start": 24.84,
+        "end": 25.08
+      },
+      {
+        "word": "people",
+        "start": 25.08,
+        "end": 25.4
+      }
+    ]
+  },
+  {
+    "start": 25.4,
+    "end": 26.32,
+    "words": [
+      {
+        "word": "who've",
+        "start": 25.4,
+        "end": 25.88
+      },
+      {
+        "word": "done",
+        "start": 25.88,
+        "end": 26.04
+      },
+      {
+        "word": "this",
+        "start": 26.04,
+        "end": 26.32
+      }
+    ]
+  },
+  {
+    "start": 26.32,
+    "end": 27.24,
+    "words": [
+      {
+        "word": "for",
+        "start": 26.32,
+        "end": 26.9
+      },
+      {
+        "word": "a",
+        "start": 26.9,
+        "end": 27.02
+      },
+      {
+        "word": "while.",
+        "start": 27.02,
+        "end": 27.24
+      }
+    ]
+  },
+  {
+    "start": 27.8,
+    "end": 28.56,
+    "words": [
+      {
+        "word": "Because",
+        "start": 27.8,
+        "end": 28.12
+      },
+      {
+        "word": "what",
+        "start": 28.12,
+        "end": 28.32
+      },
+      {
+        "word": "happens",
+        "start": 28.32,
+        "end": 28.56
+      }
+    ]
+  },
+  {
+    "start": 28.56,
+    "end": 29.42,
+    "words": [
+      {
+        "word": "is",
+        "start": 28.56,
+        "end": 28.8
+      },
+      {
+        "word": "outside",
+        "start": 28.8,
+        "end": 29.1
+      },
+      {
+        "word": "and",
+        "start": 29.1,
+        "end": 29.42
+      }
+    ]
+  },
+  {
+    "start": 29.42,
+    "end": 29.96,
+    "words": [
+      {
+        "word": "it",
+        "start": 29.42,
+        "end": 29.58
+      },
+      {
+        "word": "looks",
+        "start": 29.58,
+        "end": 29.7
+      },
+      {
+        "word": "all",
+        "start": 29.7,
+        "end": 29.96
+      }
+    ]
+  },
+  {
+    "start": 29.96,
+    "end": 30.28,
+    "words": [
+      {
+        "word": "rosy.",
+        "start": 29.96,
+        "end": 30.28
+      }
+    ]
+  },
+  {
+    "start": 31.0,
+    "end": 31.24,
+    "words": [
+      {
+        "word": "But",
+        "start": 31.0,
+        "end": 31.0
+      },
+      {
+        "word": "once",
+        "start": 31.0,
+        "end": 31.16
+      },
+      {
+        "word": "you",
+        "start": 31.16,
+        "end": 31.24
+      }
+    ]
+  },
+  {
+    "start": 31.24,
+    "end": 31.36,
+    "words": [
+      {
+        "word": "go,",
+        "start": 31.24,
+        "end": 31.36
+      }
+    ]
+  },
+  {
+    "start": 31.52,
+    "end": 32.5,
+    "words": [
+      {
+        "word": "the",
+        "start": 31.52,
+        "end": 31.9
+      },
+      {
+        "word": "devil's",
+        "start": 31.9,
+        "end": 32.26
+      },
+      {
+        "word": "always",
+        "start": 32.26,
+        "end": 32.5
+      }
+    ]
+  },
+  {
+    "start": 32.5,
+    "end": 32.85,
+    "words": [
+      {
+        "word": "in",
+        "start": 32.5,
+        "end": 32.7
+      },
+      {
+        "word": "the",
+        "start": 32.7,
+        "end": 32.8
+      },
+      {
+        "word": "detail.",
+        "start": 32.8,
+        "end": 32.85
+      }
+    ]
+  }
+]
