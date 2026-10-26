@@ -5,6 +5,7 @@ import { FiveStyleDirector, EditStyle, BeatId } from './FiveStyleDirector';
 import { FiveArchetypeEngine } from './FiveArchetypeEngine';
 import { EditorialStudioMaster } from './EditorialStudioMaster';
 import { ProMotionDirector } from './ProMotionDirector';
+import { ProDepthEditor } from './ProDepthEditor';
 import wordsData from '../public/assets/words.json';
 
 export const Root: React.FC = () => {
@@ -277,6 +278,31 @@ export const Root: React.FC = () => {
           brollMentorUrl: staticFile('assets/broll_beat3_mentors.mp4'),
           brollRosyUrl: staticFile('assets/broll_beat4_rosy.mp4'),
           brollDetailUrl: staticFile('assets/broll_beat4_devil.mp4'),
+          words: wordsData,
+        }}
+      />
+
+      {/* Pro Depth Editor 3-Layer Sandwich Master */}
+      <Composition
+        id="ProDepthEditor"
+        component={ProDepthEditor}
+        durationInFrames={1002}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          speakerVideoUrl: staticFile('assets/speaker_base.mp4'),
+          rotoFolderUrl: 'assets/roto_hook',
+          brollEarlyVideo: staticFile('assets/broll_candidates/early_cand_2.mp4'),
+          brollEarlyCutout: staticFile('assets/broll_candidates/early_cand_2_fg_cutout.png'),
+          brollLateVideo: staticFile('assets/broll_candidates/late_cand_3.mp4'),
+          brollLateCutout: staticFile('assets/broll_candidates/late_cand_3_fg_cutout.png'),
+          brollMentorVideo: staticFile('assets/broll_candidates/mentor_cand_3.mp4'),
+          brollMentorCutout: staticFile('assets/broll_candidates/mentor_cand_3_fg_cutout.png'),
+          brollRosyVideo: staticFile('assets/broll_candidates/rosy_cand_2.mp4'),
+          brollRosyCutout: staticFile('assets/broll_candidates/rosy_cand_2_fg_cutout.png'),
+          brollDetailVideo: staticFile('assets/broll_candidates/detail_cand_3.mp4'),
+          brollDetailCutout: staticFile('assets/broll_candidates/detail_cand_3_fg_cutout.png'),
           words: wordsData,
         }}
       />
