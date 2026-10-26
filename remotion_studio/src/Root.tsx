@@ -7,6 +7,7 @@ import { EditorialStudioMaster } from './EditorialStudioMaster';
 import { ProMotionDirector } from './ProMotionDirector';
 import { ProDepthEditor } from './ProDepthEditor';
 import { MasterpieceShort } from './MasterpieceShort';
+import { ThreeDMotionDirector } from './ThreeDMotionDirector';
 import wordsData from '../public/assets/words.json';
 import clausePhrasesData from '../public/assets/clause_phrases.json';
 
@@ -330,6 +331,26 @@ export const Root: React.FC = () => {
           rosyFgCutout: staticFile('assets/plates/rosy_fg_cutout.png'),
           detailBgImg: staticFile('assets/plates/detail_bg.jpg'),
           detailFgCutout: staticFile('assets/plates/detail_fg_cutout.png'),
+          phrases: clausePhrasesData,
+        }}
+      />
+
+      {/* 3D Motion Director Master with Real Three.js WebGL and Framed Cinema Cards */}
+      <Composition
+        id="ThreeDMotionDirector"
+        component={ThreeDMotionDirector}
+        durationInFrames={1002}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          speakerVideoUrl: staticFile('assets/speaker_base.mp4'),
+          rotoFolderUrl: 'assets/roto_hook',
+          brollEarlyVideo: staticFile('assets/broll_candidates/early_cand_2.mp4'),
+          brollLateVideo: staticFile('assets/broll_candidates/late_cand_3.mp4'),
+          brollMentorVideo: staticFile('assets/broll_candidates/mentor_cand_3.mp4'),
+          brollRosyVideo: staticFile('assets/broll_candidates/rosy_cand_2.mp4'),
+          brollDetailVideo: staticFile('assets/broll_candidates/detail_cand_3.mp4'),
           phrases: clausePhrasesData,
         }}
       />
