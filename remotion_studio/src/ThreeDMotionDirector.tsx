@@ -100,6 +100,52 @@ const ThreeDBackdrop: React.FC<{
   );
 };
 
+// ============================================================================
+// EFFECTCRAFT & AEVY POLISH OVERLAY (Vertical Scanlines + Floating Particle Orbs)
+// ============================================================================
+const EffectCraftPolishOverlay: React.FC<{ frame: number; accentHex: string }> = ({ frame, accentHex }) => {
+  const orbs = [
+    { x: 140, baseY: 1400, size: 14, speed: 3.2 },
+    { x: 920, baseY: 1250, size: 18, speed: 2.6 },
+    { x: 260, baseY: 850, size: 10, speed: 4.1 },
+    { x: 830, baseY: 620, size: 15, speed: 3.5 },
+  ];
+  return (
+    <AbsoluteFill style={{ pointerEvents: 'none', zIndex: 18 }}>
+      {/* EffectCraft Fine Vertical Scanlines (DceFrd65KUg at 02:47) */}
+      <div
+        style={{
+          position: 'absolute',
+          inset: 0,
+          backgroundImage:
+            'repeating-linear-gradient(90deg, rgba(255,255,255,0.018) 0px, rgba(255,255,255,0.018) 1px, transparent 1px, transparent 15px)',
+        }}
+      />
+      {/* Aevy Video School Glowing Particle Orbs (xtyiJF0de-Q at 00:40) */}
+      {orbs.map((o, i) => {
+        const yPos = (o.baseY - frame * o.speed) % 1920;
+        const finalY = yPos < 0 ? yPos + 1920 : yPos;
+        return (
+          <div
+            key={i}
+            style={{
+              position: 'absolute',
+              left: o.x + Math.sin((frame + i * 20) * 0.06) * 28,
+              top: finalY,
+              width: o.size,
+              height: o.size,
+              borderRadius: '50%',
+              backgroundColor: accentHex,
+              boxShadow: `0 0 24px 6px ${accentHex}`,
+              opacity: 0.55,
+            }}
+          />
+        );
+      })}
+    </AbsoluteFill>
+  );
+};
+
 export const ThreeDMotionDirector: React.FC<{
   speakerVideoUrl: string;
   rotoFolderUrl: string;
@@ -140,6 +186,16 @@ export const ThreeDMotionDirector: React.FC<{
     const tiltX = interpolate(localFrame, [0, 90], [8, -3]);
     const cardScale = interpolate(enter, [0, 1], [0.78, 1.0]);
 
+    // EffectCraft B&W to Sudden Color Burst Reveal (DceFrd65KUg)
+    const bwTint = interpolate(localFrame, [8, 14], [100, 0], {
+      extrapolateLeft: 'clamp',
+      extrapolateRight: 'clamp',
+    });
+    const colorBurstFlash = interpolate(localFrame, [8, 11, 16], [1, 1.32, 1.12], {
+      extrapolateLeft: 'clamp',
+      extrapolateRight: 'clamp',
+    });
+
     return (
       <AbsoluteFill
         style={{
@@ -157,6 +213,9 @@ export const ThreeDMotionDirector: React.FC<{
       >
         {/* LAYER 1: Real Three.js 3D WebGL Geometry Rotating in Background Space */}
         <ThreeDBackdrop frame={localFrame} accentHex={accentHex} mode={threeMode} />
+
+        {/* EffectCraft Scanlines & Floating Particle Orbs */}
+        <EffectCraftPolishOverlay frame={localFrame} accentHex={accentHex} />
 
         {/* LAYER 2: Single-Line Hero Header (Auto-scaled so it NEVER wraps onto 2 lines!) */}
         <div
@@ -244,7 +303,7 @@ export const ThreeDMotionDirector: React.FC<{
                 height: '100%',
                 objectFit: 'cover',
                 transform: `scale(${1.02 + (localFrame / 90) * 0.12})`,
-                filter: 'contrast(1.12) saturate(1.12)',
+                filter: `grayscale(${bwTint}%) brightness(${colorBurstFlash}) contrast(1.14) saturate(1.15)`,
               }}
               muted
             />
@@ -418,7 +477,6 @@ export const ThreeDMotionDirector: React.FC<{
 
     return (
       <AbsoluteFill style={{ backgroundColor: '#06080F', fontFamily: 'Inter, Montserrat, sans-serif', padding: '130px 65px', perspective: '1200px' }}>
-        <Video src={speakerVideoUrl} style={{ width: 1, height: 1, opacity: 0, position: 'absolute' }} />
         <ThreeDBackdrop frame={lf} accentHex="#FF2E4C" mode="crash_pillars" />
 
         <div style={{ textAlign: 'center', position: 'relative', zIndex: 10 }}>
@@ -460,7 +518,6 @@ export const ThreeDMotionDirector: React.FC<{
   if (t >= 10.6 && t < 12.8) {
     return (
       <>
-        <Video src={speakerVideoUrl} style={{ width: 1, height: 1, opacity: 0, position: 'absolute' }} />
         {render3DCinemaStage(
           brollEarlyVideo,
           'TRAP 01 // PREMATURE LAUNCH',
@@ -479,7 +536,6 @@ export const ThreeDMotionDirector: React.FC<{
   if (t >= 12.8 && t < 15.4) {
     return (
       <>
-        <Video src={speakerVideoUrl} style={{ width: 1, height: 1, opacity: 0, position: 'absolute' }} />
         {render3DCinemaStage(
           brollLateVideo,
           'TRAP 02 // SATURATED MARKET',
@@ -498,7 +554,6 @@ export const ThreeDMotionDirector: React.FC<{
   if (t >= 20.8 && t < 26.0) {
     return (
       <>
-        <Video src={speakerVideoUrl} style={{ width: 1, height: 1, opacity: 0, position: 'absolute' }} />
         {render3DCinemaStage(
           brollMentorVideo,
           'STEP 01 // THE UNFAIR ADVANTAGE',
@@ -516,6 +571,7 @@ export const ThreeDMotionDirector: React.FC<{
   // BEAT 4 (0:27.9 - 0:32.85): 3D 180-DEGREE FLIPPING CARD ("ALL ROSY" -> FLIPS IN 3D TO -> "THE DETAILS")
   if (t >= 27.9) {
     const isFlipped = t >= 30.2;
+    const beat4LocalFrame = Math.round((t - 27.9) * fps);
     const flipSpring = spring({
       frame: Math.max(0, Math.round((t - 30.2) * fps)),
       fps,
@@ -523,6 +579,26 @@ export const ThreeDMotionDirector: React.FC<{
     });
     const rotYDeg = interpolate(flipSpring, [0, 1], [0, 180]);
     const activeAccent = isFlipped ? '#FACC15' : '#10B981';
+
+    // EffectCraft B&W to Sudden Color Burst Reveal (DceFrd65KUg)
+    const rosyBwTint = interpolate(beat4LocalFrame, [8, 14], [100, 0], {
+      extrapolateLeft: 'clamp',
+      extrapolateRight: 'clamp',
+    });
+    const rosyBurst = interpolate(beat4LocalFrame, [8, 11, 16], [1, 1.32, 1.12], {
+      extrapolateLeft: 'clamp',
+      extrapolateRight: 'clamp',
+    });
+
+    const flipLocalFrame = Math.max(0, Math.round((t - 30.2) * fps));
+    const detailBwTint = interpolate(flipLocalFrame, [4, 10], [100, 0], {
+      extrapolateLeft: 'clamp',
+      extrapolateRight: 'clamp',
+    });
+    const detailBurst = interpolate(flipLocalFrame, [4, 7, 12], [1, 1.32, 1.12], {
+      extrapolateLeft: 'clamp',
+      extrapolateRight: 'clamp',
+    });
 
     return (
       <AbsoluteFill
@@ -533,8 +609,10 @@ export const ThreeDMotionDirector: React.FC<{
           overflow: 'hidden',
         }}
       >
-        <Video src={speakerVideoUrl} style={{ width: 1, height: 1, opacity: 0, position: 'absolute' }} />
-        <ThreeDBackdrop frame={Math.round((t - 27.9) * fps)} accentHex={activeAccent} mode="network_lattice" />
+        <ThreeDBackdrop frame={beat4LocalFrame} accentHex={activeAccent} mode="network_lattice" />
+
+        {/* EffectCraft Scanlines & Floating Particle Orbs */}
+        <EffectCraftPolishOverlay frame={beat4LocalFrame} accentHex={activeAccent} />
 
         {/* Single-Line Header Above the 3D Flipping Card */}
         <div style={{ position: 'absolute', top: 135, width: '100%', textAlign: 'center', zIndex: 10 }}>
@@ -581,7 +659,16 @@ export const ThreeDMotionDirector: React.FC<{
                 backgroundColor: '#0D121F',
               }}
             >
-              <Video src={brollRosyVideo} style={{ width: '100%', height: '100%', objectFit: 'cover' }} muted />
+              <Video
+                src={brollRosyVideo}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  filter: `grayscale(${rosyBwTint}%) brightness(${rosyBurst}) contrast(1.14) saturate(1.15)`,
+                }}
+                muted
+              />
             </div>
           ) : (
             <div
@@ -596,7 +683,16 @@ export const ThreeDMotionDirector: React.FC<{
                 transform: 'scaleX(-1)', // Un-mirrors the back face after 180deg Y-rotation!
               }}
             >
-              <Video src={brollDetailVideo} style={{ width: '100%', height: '100%', objectFit: 'cover' }} muted />
+              <Video
+                src={brollDetailVideo}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  filter: `grayscale(${detailBwTint}%) brightness(${detailBurst}) contrast(1.14) saturate(1.15)`,
+                }}
+                muted
+              />
             </div>
           )}
         </div>

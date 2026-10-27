@@ -50,7 +50,16 @@ def build_clause_aware_phrases(words: list, max_time: float = 32.85) -> list:
             "words": current
         })
 
-    return phrases
+    # Merge any 1-word orphan phrase into the preceding phrase (if < 4 words)
+    merged = []
+    for p in phrases:
+        if len(p["words"]) == 1 and merged and len(merged[-1]["words"]) < 4:
+            merged[-1]["words"].extend(p["words"])
+            merged[-1]["end"] = p["end"]
+        else:
+            merged.append(p)
+
+    return merged
 
 def generate_clause_phrases_file(
     words_input_path: str = "remotion_studio/public/assets/words.json",
