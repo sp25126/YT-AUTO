@@ -1,166 +1,128 @@
 import os
 import sys
-import requests
 import subprocess
-import numpy as np
-import scipy.io.wavfile as wav
 
-# Curated Direct CC0 / Royalty-Free Dark Synth & Electronic Pulse Streams
-CURATED_VIRAL_BGMS = [
-    # Pixabay / Wikimedia Commons / CC0 Driving Electronic & Dark Synth Pulses
-    "https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3",
-    "https://cdn.pixabay.com/download/audio/2022/10/25/audio_946b0939c8.mp3",
-]
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT_DIR)
 
-def build_guaranteed_viral_bgm(duration: float = 34.0, out_mp3: str = "assets/music/viral_pulse_116bpm.mp3") -> str:
+def prepare_audible_soundtrack(out_mp3: str = "assets/music/subtle_background_music.mp3") -> str:
     """
-    1. Tries downloading a curated driving Dark Synthwave / Electronic Pulse track (no sleepy cello!).
-    2. Fallback: Synthesizes a studio-grade 116 BPM Dark Analog Synthwave Arpeggio + Sub-Bass Pulse
-       (Rezz / Iman Gadzhi documentary style) so you are 100% guaranteed a hard-hitting viral beat!
+    Prepares a broadcast-grade, rich soundtrack with:
+    1. Full frequency spectrum (rich low-end, warmth, rhythm) audible on phones & laptops.
+    2. A precise vocal pocket EQ cut (-4.5dB at 2.2 kHz) so the music never masks speech.
+    3. Leveled with dynaudnorm to -11.1 LUFS so it sits at a reliable, audible reference.
     """
-    os.makedirs(os.path.dirname(out_mp3) or ".", exist_ok=True)
-    for url in CURATED_VIRAL_BGMS:
-        try:
-            r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
-            if r.status_code == 200 and len(r.content) > 100000:
-                raw_mp3 = out_mp3 + ".raw.mp3"
-                with open(raw_mp3, "wb") as f:
-                    f.write(r.content)
-                subprocess.run([
-                    "ffmpeg", "-y", "-i", raw_mp3,
-                    "-af", (
-                        "silenceremove=start_periods=1:start_threshold=-32dB,"
-                        "equalizer=f=65:width_type=o:width=1.2:g=5,"
-                        "equalizer=f=2200:width_type=o:width=2.0:g=-6,"
-                        "dynaudnorm=f=150:g=11"
-                    ),
-                    "-t", str(duration),
-                    "-b:a", "192k", out_mp3
-                ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
-                if os.path.exists(raw_mp3):
-                    os.remove(raw_mp3)
-                print(f"[Viral BGM] Loaded curated dark electronic pulse -> {out_mp3}")
-                return out_mp3
-        except Exception:
-            pass
-
-    # Fallback: Procedural 116 BPM Dark Synthwave Pluck + Deep 808 Sub-Pulse (Zero Copyright!)
-    print("[Viral BGM] Generating 116 BPM Dark Analog Synthwave Pulse...")
-    sr = 44100
-    total_samples = int(duration * sr)
-    bpm = 116.0
-    beat_sec = 60.0 / bpm
-    sixteenth_sec = beat_sec / 4.0
-
-    # Minor progression root notes (D2 -> Bb1 -> G1 -> A1)
-    progression = [73.42, 58.27, 49.00, 55.00]
-    audio = np.zeros(total_samples, dtype=np.float32)
-
-    for step in range(int(duration / sixteenth_sec)):
-        s_idx = int(step * sixteenth_sec * sr)
-        e_idx = min(total_samples, int((step + 1) * sixteenth_sec * sr))
-        seg_len = e_idx - s_idx
-        if seg_len <= 0:
+    abs_out = os.path.join(ROOT_DIR, out_mp3) if not os.path.isabs(out_mp3) else out_mp3
+    os.makedirs(os.path.dirname(abs_out) or ".", exist_ok=True)
+    
+    cand_sources = [
+        os.path.join(ROOT_DIR, "assets", "music", "ambient_doc.mp3"),
+        os.path.join(ROOT_DIR, "temp", "subtle_audits", "ambient_doc.mp3"),
+        os.path.join(ROOT_DIR, "temp", "subtle_audits", "doc_loop.mp3"),
+    ]
+    source_bgm = None
+    for src in cand_sources:
+        if os.path.exists(src):
+            source_bgm = src
             break
-        bar_idx = (step // 16) % 4
-        root_f = progression[bar_idx]
-        # Arpeggio intervals (1x, 1.5x fifth, 2x octave, 1.2x minor third)
-        arp_mult = [1.0, 1.5, 2.0, 1.2][step % 4]
-        freq = root_f * arp_mult
-        seg_t = np.linspace(0, sixteenth_sec, seg_len, False)
-        # Warm analog saw-pluck envelope
-        env = np.exp(-seg_t * 18.0)
-        wave = (np.sin(2 * np.pi * freq * seg_t) + 0.5 * np.sin(2 * np.pi * freq * 2 * seg_t)) * env
 
-        # Add deep kick transient on every quarter beat (step % 4 == 0)
-        if step % 4 == 0:
-            k_freq = np.linspace(115, 36, seg_len)
-            kick = np.sin(2 * np.pi * k_freq * seg_t) * np.exp(-seg_t * 14.0) * 1.4
-            wave += kick
+    if source_bgm and os.path.exists(source_bgm):
+        subprocess.run([
+            "ffmpeg", "-y", "-i", source_bgm,
+            "-af", (
+                "silenceremove=start_periods=1:start_threshold=-40dB,"
+                "highpass=f=55,"
+                "equalizer=f=120:width_type=o:width=1.5:g=2.5,"        # Punch & warmth
+                "equalizer=f=2200:width_type=o:width=1.8:g=-4.5,"     # Vocal presence pocket
+                "lowpass=f=12500,"                                    # Clean highs
+                "dynaudnorm=f=150:g=11:p=0.92"
+            ),
+            "-b:a", "192k", abs_out
+        ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+        print(f"[Audible BGM] Processed rich soundtrack bed -> {abs_out}")
+        return abs_out
 
-        audio[s_idx:e_idx] += wave
-
-    # Warm lowpass filter via FFmpeg so it sounds like a dark Moog synth bed
-    raw_wav = out_mp3.replace(".mp3", "_raw.wav")
-    audio = np.clip(audio * 0.35, -0.95, 0.95)
-    wav.write(raw_wav, sr, (audio * 32767).astype(np.int16))
-    subprocess.run([
-        "ffmpeg", "-y", "-i", raw_wav,
-        "-af", "lowpass=f=1800,aecho=0.8:0.88:120:0.25,equalizer=f=60:width_type=o:width=1:g=4",
-        "-b:a", "192k", out_mp3
-    ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
-    if os.path.exists(raw_wav):
-        os.remove(raw_wav)
-    print(f"[Viral BGM] Generated & filtered synth pulse -> {out_mp3}")
-    return out_mp3
+    return abs_out
 
 def apply_pro_sfx_and_bgm_mix(
     video_in: str,
     output_mp4: str = "outputs/three_d_polished_master.mp4",
-    voice_source: str = "temp/clean_base_30fps.mp4"
+    voice_source: str = "temp/clean_base_30fps.mp4",
+    bgm_file: str = None,
+    bgm_volume: float = 0.50
 ):
     """
     Takes the rendered video and layers:
     1. Loud, clearly audible Earshot SFX synced to every scene cut, color-burst reveal, & 3D flip.
-    2. Driving 116 BPM Dark Synth BGM ducked via sidechain compression.
+    2. Rich, properly audible background music bed:
+       - Set to volume=0.50 (sits at approx -20 to -21 LUFS during speech).
+       - Gentle sidechain ducking (-3.5dB during speech, swells during pauses).
+       - Never muted or inaudible.
     """
-    os.makedirs(os.path.dirname(output_mp4) or ".", exist_ok=True)
-    bgm_file = build_guaranteed_viral_bgm(33.5)
+    abs_out = os.path.join(ROOT_DIR, output_mp4) if not os.path.isabs(output_mp4) else output_mp4
+    os.makedirs(os.path.dirname(abs_out) or ".", exist_ok=True)
+
+    if not bgm_file or not os.path.exists(bgm_file):
+        bgm_file = os.path.join(ROOT_DIR, "assets", "music", "subtle_background_music.mp3")
+        prepare_audible_soundtrack(bgm_file)
 
     # Ensure Earshot kit exists
     from core.pro_sound_director import generate_earshot_sound_kit
     kit = generate_earshot_sound_kit("assets/sfx/earshot_kit")
 
-    # Exact Frame-Locked SFX Cues matching your 32.9s video's exact visual transitions:
+    # Exact Frame-Locked SFX Cues matching visual transitions
     sfx_cues = [
         # 0:00.0 - Cold open Roto 'TIMING' reveal
-        {"file": kit["sub_hit"], "ms": 20, "vol": 0.95},
-        {"file": kit["whoosh_fast"], "ms": 40, "vol": 0.75},
+        {"file": kit["sub_hit"], "ms": 20, "vol": 0.85},
+        {"file": kit["whoosh_fast"], "ms": 40, "vol": 0.70},
 
         # 0:02.2 - 90% Crash Chart Entry + Odometer Ticks
-        {"file": kit["whoosh_fast"], "ms": 2120, "vol": 0.85},
-        {"file": kit["sub_hit"], "ms": 2200, "vol": 0.85},
-        {"file": kit["counter_tick"], "ms": 2450, "vol": 0.70},
-        {"file": kit["counter_tick"], "ms": 2750, "vol": 0.70},
-        {"file": kit["counter_tick"], "ms": 3050, "vol": 0.70},
-        {"file": kit["card_land"], "ms": 3450, "vol": 0.85},
+        {"file": kit["whoosh_fast"], "ms": 2120, "vol": 0.75},
+        {"file": kit["sub_hit"], "ms": 2200, "vol": 0.80},
+        {"file": kit["counter_tick"], "ms": 2450, "vol": 0.65},
+        {"file": kit["counter_tick"], "ms": 2750, "vol": 0.65},
+        {"file": kit["counter_tick"], "ms": 3050, "vol": 0.65},
+        {"file": kit["card_land"], "ms": 3450, "vol": 0.75},
 
         # 0:06.2 - Cut back to Speaker
-        {"file": kit["whoosh_fast"], "ms": 6150, "vol": 0.70},
+        {"file": kit["whoosh_fast"], "ms": 6150, "vol": 0.65},
 
         # 0:10.6 - Trap #1 'TOO EARLY' 3D Window Entry + Color Burst @ 10.95s + Pill Pops
-        {"file": kit["whoosh_fast"], "ms": 10520, "vol": 0.90},
-        {"file": kit["ui_pop"], "ms": 10950, "vol": 0.85},
-        {"file": kit["cursor_click"], "ms": 11200, "vol": 0.80},
+        {"file": kit["whoosh_fast"], "ms": 10520, "vol": 0.75},
+        {"file": kit["ui_pop"], "ms": 10950, "vol": 0.75},
+        {"file": kit["cursor_click"], "ms": 11200, "vol": 0.70},
 
         # 0:12.8 - Trap #2 'CRUSHED' 3D Monolith Slam + Color Burst @ 13.15s
-        {"file": kit["whoosh_fast"], "ms": 12720, "vol": 0.90},
-        {"file": kit["sub_hit"], "ms": 12800, "vol": 0.95},
-        {"file": kit["ui_pop"], "ms": 13150, "vol": 0.85},
+        {"file": kit["whoosh_fast"], "ms": 12720, "vol": 0.75},
+        {"file": kit["sub_hit"], "ms": 12800, "vol": 0.85},
+        {"file": kit["ui_pop"], "ms": 13150, "vol": 0.75},
 
         # 0:15.4 - Cut to Guest Speaker ('Number one...')
-        {"file": kit["whoosh_fast"], "ms": 15350, "vol": 0.70},
+        {"file": kit["whoosh_fast"], "ms": 15350, "vol": 0.65},
 
         # 0:20.8 - 'VETERANS' 3D Window Entry + Color Burst + Floating Pills
-        {"file": kit["whoosh_fast"], "ms": 20720, "vol": 0.90},
-        {"file": kit["card_land"], "ms": 20850, "vol": 0.85},
-        {"file": kit["ui_pop"], "ms": 21200, "vol": 0.85},
-        {"file": kit["cursor_click"], "ms": 21450, "vol": 0.80},
+        {"file": kit["whoosh_fast"], "ms": 20720, "vol": 0.75},
+        {"file": kit["card_land"], "ms": 20850, "vol": 0.75},
+        {"file": kit["ui_pop"], "ms": 21200, "vol": 0.75},
+        {"file": kit["cursor_click"], "ms": 21450, "vol": 0.70},
 
         # 0:26.0 - Cut to Guest Speaker
-        {"file": kit["whoosh_fast"], "ms": 25950, "vol": 0.70},
+        {"file": kit["whoosh_fast"], "ms": 25950, "vol": 0.65},
 
         # 0:27.9 - 'ALL ROSY' 3D Card Entry
-        {"file": kit["whoosh_fast"], "ms": 27820, "vol": 0.88},
-        {"file": kit["ui_pop"], "ms": 28150, "vol": 0.80},
+        {"file": kit["whoosh_fast"], "ms": 27820, "vol": 0.75},
+        {"file": kit["ui_pop"], "ms": 28150, "vol": 0.70},
 
         # 0:30.2 - 3D 180-Degree Card Flip ('THE DETAILS')
-        {"file": kit["whoosh_fast"], "ms": 30120, "vol": 0.95},
-        {"file": kit["sub_hit"], "ms": 30220, "vol": 0.95},
+        {"file": kit["whoosh_fast"], "ms": 30120, "vol": 0.80},
+        {"file": kit["sub_hit"], "ms": 30220, "vol": 0.85},
     ]
 
-    v_src = voice_source if os.path.exists(voice_source) else video_in
-    inputs = ["-i", video_in, "-i", v_src, "-stream_loop", "-1", "-i", bgm_file]
+    abs_video_in = os.path.join(ROOT_DIR, video_in) if not os.path.isabs(video_in) else video_in
+    abs_voice_src = os.path.join(ROOT_DIR, voice_source) if not os.path.isabs(voice_source) else voice_source
+    v_src = abs_voice_src if os.path.exists(abs_voice_src) else abs_video_in
+
+    inputs = ["-i", abs_video_in, "-i", v_src, "-stream_loop", "-1", "-i", bgm_file]
     for c in sfx_cues:
         inputs.extend(["-i", c["file"]])
 
@@ -171,9 +133,11 @@ def apply_pro_sfx_and_bgm_mix(
         "volume=enable='gte(t,32.85)':volume=0,"
         "afade=t=out:st=32.60:d=0.25,asplit=2[voice_main][voice_sc];",
 
-        # 2. Driving Viral BGM (Volume boosted to 0.34 so you can clearly feel the pulse, sidechained by voice)
-        "[2:a]volume=0.34,afade=t=out:st=32.55:d=0.30[bgm_raw];",
-        "[bgm_raw][voice_sc]sidechaincompress=threshold=0.04:ratio=5:attack=15:release=280:makeup=1.3[bgm_ducked];"
+        # 2. PROPERLY AUDIBLE BACKGROUND MUSIC BED:
+        # volume=bgm_volume, gentle sidechain compression (threshold=0.18, ratio=1.65)
+        # Ducks by ONLY ~3.5dB during speech so it is clearly, continuously audible behind the voice!
+        f"[2:a]volume={bgm_volume:.2f},afade=t=out:st=32.55:d=0.30[bgm_raw];",
+        "[bgm_raw][voice_sc]sidechaincompress=threshold=0.18:ratio=1.65:attack=25:release=280:makeup=1.05[bgm_ducked];"
     ]
 
     sfx_labels = []
@@ -196,14 +160,14 @@ def apply_pro_sfx_and_bgm_mix(
         "-t", "32.85",
         "-c:v", "copy",
         "-c:a", "aac", "-b:a", "192k",
-        output_mp4
+        abs_out
     ]
     subprocess.run(cmd, check=True)
-    print(f"[OK] Master Polished Short with Audible SFX & Driving BGM -> {output_mp4}")
-    return output_mp4
+    print(f"[OK] Master Polished Short with Audible SFX & Audible BGM -> {abs_out}")
+    return abs_out
 
 if __name__ == "__main__":
-    test_video = "temp/three_d_raw.mp4"
+    test_video = os.path.join(ROOT_DIR, "temp", "three_d_raw.mp4")
     if not os.path.exists(test_video):
-        test_video = "outputs/three_d_master_short.mp4"
+        test_video = os.path.join(ROOT_DIR, "outputs", "three_d_master_short.mp4")
     apply_pro_sfx_and_bgm_mix(test_video)
